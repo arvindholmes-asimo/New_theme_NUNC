@@ -17,8 +17,7 @@ $(document).ready(function () {
           slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
-          dots: true,
-          speed: 1000
+          dots: true
         }
       },
       {
@@ -27,8 +26,7 @@ $(document).ready(function () {
           slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
-          dots: true,
-          speed: 1000
+          dots: true
         }
       },
       {
@@ -56,13 +54,11 @@ $(document).ready(function () {
     $('.caption').removeClass('animated fadeInLeft');
   }
 
-  $("#banner_carousel").on("beforeChange", function() {
-    
+  $("#banner_carousel").on("beforeChange", function () {
+
     $('.caption').removeClass('animated fadeInLeft').hide();
-    setTimeout(() => {    
       $('.caption').addClass('animated fadeInLeft').show();
-      
-    }, 1000);
+
 
   })
 
