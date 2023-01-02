@@ -252,9 +252,9 @@ a {
 }
 
 
-nav div>.media .slick-initialized .slick-slide {
+/* nav div>.media .slick-initialized .slick-slide {
     display: flex !important;
-}
+} */
 
 .clients-left,
 .clients-right {
