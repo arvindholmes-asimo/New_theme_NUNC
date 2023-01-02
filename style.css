@@ -289,7 +289,7 @@ a {
 }
 
 #our_latest_work .grid-container {
-    margin: 60px 70px;
+    margin: 60px 30px;
     display: grid;
     text-align: center;
     grid-template-columns: repeat(3, 1fr);
@@ -554,6 +554,10 @@ a {
         font-size: 5rem;
         display: block;
     }
+    #banner_carousel .slick-img {
+        height: 350px;  
+    
+    }
 
     /* #case_studies_carousel .slick-next {
         right: -3%;
@@ -591,6 +595,8 @@ a {
     .insights-box {
         width: 60%;
     }
+    #our_latest_work .grid-container {
+        margin: 60px 70px;}
 
     
 
@@ -614,10 +620,7 @@ a {
     }
 
 
-    .what-our-clients-message {
-        width: 55%;
-        margin: auto;
-    }
+  
 
 
 }
@@ -629,6 +632,10 @@ a {
     .clients-right {
         display: block;
         width: 20%;
+    }
+    .what-our-clients-message {
+        width: 55%;
+        margin: auto;
     }
 
  }
