@@ -289,7 +289,7 @@ a {
 }
 
 #our_latest_work .grid-container {
-    margin: 60px 30px;
+    margin: 60px 0px;
     display: grid;
     text-align: center;
     grid-template-columns: repeat(3, 1fr);
@@ -309,8 +309,8 @@ a {
 }
 
 .our-latest-work-circle {
-    width: clamp(100px, 12vw, 180px);
-    height: clamp(100px, 12vw, 180px);
+    width: clamp(70px, 12vw, 180px);
+    height: clamp(70px, 12vw, 180px);
     border-radius: 50rem;
     background: var(--color-primary-light);
     border: 4px solid var(--color-primary);
@@ -331,16 +331,16 @@ a {
     position: absolute;
     top: 0;
     left: 0;
-    width: 20px;
-    height: 20px;
+    width: clamp(10px, 1.8rem, 20px);
+    height: clamp(10px, 1.8rem, 20px);
     transform: translate(-50%, calc(-50% - 2px));
     border-radius: 50rem;
     background-color: dodgerblue;
 }
 
 .our-latest-work-circle img {
-    width: clamp(70px, 8vw, 100px);
-    height: clamp(70px, 8vw, 100px);
+    width: clamp(65%, 8vw, 100px);
+    height: clamp(65%, 8vw, 100px);
 }
 
 .our-latest-work-item:last-child::after {
@@ -348,12 +348,13 @@ a {
     position: absolute;
     top: 0;
     right: 0;
-    width: 20px;
-    height: 20px;
+    width: clamp(10px, 1.8rem, 20px);
+    height: clamp(10px, 1.8rem, 20px);
     transform: translate(50%, calc(-50% - 2px));
     border-radius: 50rem;
     background-color: dodgerblue;
 }
+
 .more-mob-btn {
     display: block;
     cursor: pointer;
@@ -541,10 +542,6 @@ a {
 .flex-50 {
     width: 100%;
 }
-
-
-
-
 .our-latest-work-content {
     height: auto;
 }
@@ -554,10 +551,8 @@ a {
         font-size: 5rem;
         display: block;
     }
-    #banner_carousel .slick-img {
-        height: 350px;  
-    
-    }
+
+  
 
     /* #case_studies_carousel .slick-next {
         right: -3%;
@@ -579,8 +574,7 @@ a {
     }
 
     #banner_carousel .slick-img {
-        max-height: 500px;
-        height: 500px;
+        height: 450px;
     }
 
     .display1 {
@@ -595,10 +589,12 @@ a {
     .insights-box {
         width: 60%;
     }
-    #our_latest_work .grid-container {
-        margin: 60px 70px;}
 
-    
+    #our_latest_work .grid-container {
+        margin: 60px 70px;
+    }
+
+
 
     .our-latest-work-wrapper {
         padding-top: 9.8rem;
@@ -620,22 +616,24 @@ a {
     }
 
 
-  
+
+
 
 
 }
 
-@media only screen  and (min-width:768px){
-    
+@media only screen and (min-width:768px) {
+
 
     .clients-left,
     .clients-right {
         display: block;
         width: 20%;
     }
+
     .what-our-clients-message {
         width: 55%;
         margin: auto;
     }
 
- }
+}
