@@ -12,9 +12,6 @@
     /* --color-primary-light: rgb(143, 197, 255); */
     /* --color-primary-light: #A8D0E2; */
     --color-primary-light: rgb(224, 245, 254);
-
-
-
 }
 
 * ::selection {
@@ -187,9 +184,13 @@ a {
 
 }
 
+.slick-prev:before, .slick-next:before {
+    color: var(--color-border);
+}
+
 .slick-slide {
     margin: 0 auto !important;
-    text-align: center !important;
+    /* text-align: center !important; */
     overflow: hidden;
 }
 
