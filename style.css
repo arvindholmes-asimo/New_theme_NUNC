@@ -184,10 +184,6 @@ a {
 
 }
 
-.slick-prev:before, .slick-next:before {
-    color: var(--color-border);
-}
-
 .slick-slide {
     margin: 0 auto !important;
     /* text-align: center !important; */
@@ -223,8 +219,6 @@ a {
     list-style: none;
     text-align: center;
 }
-
-
 
 .what-we-offer {
     top: 0;
@@ -262,12 +256,19 @@ a {
 }
 
 #client_carousel .slick-next,
-.slick-prev {
-    top: 35px;
+#client_carousel .slick-prev {
+    top: 40px;
+
 
 }
 
-.what-our-clients-message p {
+#client_carousel .slick-prev:before,
+#client_carousel .slick-next:before {
+
+    color: var(--color-border);
+}
+
+.clients-message-content {
     font-size: 1.9rem;
     color: rgb(95, 96, 96);
 }
@@ -291,15 +292,16 @@ a {
 }
 
 #our_latest_work .grid-container {
-    margin: 60px 20px;
-    /* doubt  */
+    margin: 60px 70px;
+    display: grid;
     text-align: center;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .our-latest-work-item {
     position: relative;
     width: 100%;
-    min-height: 110px;
+    min-height: 90px;
     border-top: 4px solid dodgerblue;
 
 }
@@ -355,9 +357,18 @@ a {
     border-radius: 50rem;
     background-color: dodgerblue;
 }
+.more-mob-btn {
+    display: block;
+    cursor: pointer;
+    color: var(--color-primary);
+    width: 100%;
+    margin: 0 auto;
+    background: none;
+    border: none;
+}
 
 
-#case_studies_carousel .slick-next {
+/* #case_studies_carousel .slick-next {
     right: 0%;
     z-index: -2;
 }
@@ -365,7 +376,7 @@ a {
 #case_studies_carousel .slick-prev {
     left: 0%;
     z-index: -2;
-}
+} */
 
 #case_studies_carousel .slick-dots {
     position: absolute;
@@ -534,47 +545,12 @@ a {
     width: 100%;
 }
 
-/* .more-mob-btn:focus {
 
-} */
-
-.more-mob-btn {
-    display: block;
-    cursor: pointer;
-    color: var(--color-primary);
-    width: 100%;
-    margin: 0 auto;
-    background: none;
-    border: none;
-}
 
 
 .our-latest-work-content {
     height: auto;
 }
-
-
-
-
-@media screen and (min-width:600px) and (max-width:992px) {
-    .our-latest-work-circle {
-        width: 100px;
-        height: 100px;
-
-    }
-
-    .our_latest_work img {
-        width: 60px;
-    }
-
-    .clients-left,
-    .clients-right {
-        display: block;
-    }
-
-}
-
-
 
 @media screen and (min-width:601px) {
     .display2 {
@@ -582,38 +558,24 @@ a {
         display: block;
     }
 
-    #case_studies_carousel .slick-next {
+    /* #case_studies_carousel .slick-next {
         right: -3%;
     }
 
     #case_studies_carousel .slick-prev {
         left: -3%;
-    }
+    } */
 
-    .our_latest_work img {
-        width: 120px;
-    }
 
     .chatbot a>img {
         width: 160px;
     }
-
-    /* .our-latest-work-circle {
-        width: clamp(100px , 120px ,180px);
-        height:  clamp(100px , 120px ,180px);
-    } */
-    /* 
-    .our-latest-work img {
-        width: 120px;
-    } */
 
     .our-latest-work-item {
         position: relative;
         width: 100%;
         min-height: 100px;
     }
-
-
 
     #banner_carousel .slick-img {
         max-height: 500px;
@@ -633,11 +595,7 @@ a {
         width: 60%;
     }
 
-    .clients-left,
-    .clients-right {
-        display: block;
-        width: 20%;
-    }
+    
 
     .our-latest-work-wrapper {
         padding-top: 9.8rem;
@@ -658,15 +616,22 @@ a {
         display: none;
     }
 
+
+    .what-our-clients-message {
+        width: 55%;
+        margin: auto;
+    }
+
+
+}
+
+@media only screen  and (min-width:768px){
+    
+
     .clients-left,
     .clients-right {
         display: block;
+        width: 20%;
     }
-    
-.what-our-clients-message {
-    width: 55%;
-    margin: auto;
-}
 
-
-}
+ }
