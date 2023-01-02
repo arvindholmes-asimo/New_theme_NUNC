@@ -272,7 +272,7 @@ nav div>.media .slick-initialized .slick-slide {
 }
 
 .what-our-clients-message {
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 
@@ -661,5 +661,11 @@ nav div>.media .slick-initialized .slick-slide {
     .clients-right {
         display: block;
     }
+    
+.what-our-clients-message {
+    width: 55%;
+    margin: auto;
+}
+
 
 }
