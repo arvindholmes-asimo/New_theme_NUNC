@@ -55,7 +55,7 @@
 .grid-item {
     position: relative;
     width: 100%;
-    min-height: 200px;
+    min-height: 150px;
     border-top: 4px solid var(--color-primary);
 }
 
@@ -117,11 +117,15 @@
     .more-btn {
         display: none;
     }
+    
 }
 
 @media only screen and (min-width: 601px) {
     #what_we_offer .grid-container {
         grid-template-columns: repeat(4, 1fr);
+    }
+    .grid-item{
+        min-height: 180px;
     }
 
     .grid-item:nth-child(8n + 4) {
@@ -185,5 +189,15 @@
 .more-btn:hover:after {
     margin-left: 10px;
     opacity: 0.8;
+
+}
+@media only screen and (min-width:601px) and (max-width:769px){
+    .circle {
+        width:90px;
+        height:90px;
+    }
+    .circle img {
+        width: 55px;
+    }
 
 }

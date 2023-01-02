@@ -68,8 +68,9 @@ $(document).ready(function () {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: false,
+    variableWidth: false,
     autoplaySpeed: 2000,
-    arrows: false,
+    arrows: true,
     responsive: [
       {
         breakpoint: 1400,
