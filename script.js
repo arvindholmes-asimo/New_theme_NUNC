@@ -8,7 +8,7 @@ $(document).ready(function () {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 5000,
     arrows: false,
     responsive: [
       {
@@ -48,20 +48,43 @@ $(document).ready(function () {
     ],
   });
 
-  if ($('.slick-slide').hasClass('slick-active')) {
-    $('.caption').addClass('animated fadeInLeft');
-  } else {
-    $('.caption').removeClass('animated fadeInLeft');
-  }
-
-  $("#banner_carousel").on("beforeChange", function () {
-
-    $('.caption').removeClass('animated fadeInLeft').hide();
-    $('.caption').addClass('animated fadeInLeft').show();
 
 
+  // if ($('.slick-slide').hasClass('slick-active')) {
+  //   $('.caption').addClass('animated fadeInLeft');
+  // } else {
+  //   $('.caption').removeClass('animated fadeInLeft');
+  // }
+
+  // $("#banner_carousel").on("beforeChange", function () {
+
+  //   $('.caption').removeClass('animated fadeInLeft').hide();
+  //   $('.caption').addClass('animated fadeInLeft').show();
+
+
+  // })
+  
+  let headingAnimate = 'animate__animated animate__slideInUp animate__delay-0.1s';
+  let tagLineAnimate = 'animate__animated animate__slideInUp animate__delay-.4s';
+  let readmoreAnimate = 'animate__animated animate__slideInUp animate__delay-.6s';
+  $("#banner_carousel").on("afterChange", function (e, slick, currentSlide) {
+    console.log({ slick, currentSlide });
+    $(".slick-slide .heading1").removeClass(headingAnimate);
+    $(".slick-slide .tag-line").removeClass(tagLineAnimate);
+    $(".slick-slide .read_more").removeClass(readmoreAnimate);
+    $(".slick-current .heading1").addClass(headingAnimate);
+    $(".slick-current .tag-line").addClass(tagLineAnimate);
+    $(".slick-current .read_more").addClass(readmoreAnimate);
+  
   })
 
+  $('#banner_carousel').on('init', function(event, slick){
+    console.log("initialized");
+    $(".slick-current .heading1").addClass(headingAnimate);
+    $(".slick-current .tag-line").addClass(tagLineAnimate);
+    $(".slick-current .read_more").addClass(readmoreAnimate);
+    // event subscriber goes here
+});
   // client carousel script
   $('#client_carousel').slick({
 

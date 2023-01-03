@@ -542,9 +542,10 @@ a {
 .flex-50 {
     width: 100%;
 }
-.our-latest-work-content {
+
+/* .our-latest-work-content {
     height: auto;
-}
+} */
 
 @media screen and (min-width:601px) {
     .display2 {
@@ -552,7 +553,7 @@ a {
         display: block;
     }
 
-  
+
 
     /* #case_studies_carousel .slick-next {
         right: -3%;
