@@ -86,7 +86,8 @@ h2 {
 
 h3 {
     font-size: clamp(1.8rem, 1.2vw, 2.2rem);
-    font-family: 'Medium';
+    /* font-family: 'Medium'; */
+    font-family: 'Regular';
 }
 
 h4 {
@@ -131,6 +132,12 @@ ul>li>a {
 
 a {
     font-size: 1.8rem;
+
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: var(--color-white);
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -665,6 +672,7 @@ a {
         margin-top: 90px;
         height: calc(100% - 90px);
     }
+
     /* .slick-next {
         right: 0 !important;
     }
