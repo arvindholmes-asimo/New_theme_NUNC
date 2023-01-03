@@ -154,7 +154,7 @@
     position: absolute;
     left: calc(100% + 20px);
     top: 0;
-    font-size: 3.2rem;
+    font-size: 2.4rem;
     background: transparent;
     border: none;
     width: 100%;
@@ -178,7 +178,7 @@
 .more-btn::after {
     content: '➝';
     position: absolute;
-    font-size: 3.2rem;
+    font-size: 2.4rem;
     margin-left: 5px;
     transition: margin 0.15s;
 

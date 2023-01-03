@@ -603,11 +603,11 @@ a {
 
 
     #case_studies_carousel .slick-next {
-        right: -3%;
+        right: -3% !important;
     }
 
     #case_studies_carousel .slick-prev {
-        left: -3%;
+        left: -3% !important;
     }
 
 
