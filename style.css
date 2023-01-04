@@ -178,6 +178,12 @@ footer a:hover {
     outline: none;
 }
 
+.read_more:hover {
+    background: var(--color-white);
+    color: var(--color-primary);
+    transform: 0.5s;
+}
+
 
 #banner_carousel .slick-img {
     width: 100%;
@@ -219,7 +225,8 @@ footer a:hover {
 
 
 .bg-shade {
-    background: var(--color-bg1);
+    /* background: var(--color-bg1); */
+    background: #f0f0f0;
 }
 
 .bg-bright {
