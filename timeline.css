@@ -17,6 +17,8 @@
 
 .hover_img {
     display: none;
+    --animate-duration:0.5s !important;
+    --animate-delay:0.5s !important;
 }
 
 .circle:hover {

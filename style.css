@@ -63,6 +63,7 @@ body {
     display: block;
     font-family: "Regular";
     font-size: 3rem;
+    margin-top: 30px;
 }
 
 .display3 {
@@ -172,6 +173,7 @@ footer a:hover {
     font-family: "Medium";
     padding: .5rem 2rem;
     outline: none;
+    margin-top: 20px;
 }
 
 .read_more:focus {
