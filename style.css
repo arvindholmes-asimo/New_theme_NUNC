@@ -5,7 +5,7 @@
     --color-body: var(--color-secondary);
     --color-black: rgb(33, 37, 41);
     --color-white: rgb(255, 255, 255);
-    --color-bg1: rgb(227, 227, 227);
+    --color-bg1: #f0f0f0;
     --color-bg2: rgb(64, 64, 64);
     --color-bg3: rgb(44, 44, 44);
     --color-border: rgb(112, 112, 112);
@@ -150,6 +150,10 @@ footer a:hover {
 .navbar-light .navbar-nav .nav-link:hover {
     color: var(--color-primary);
 }
+.navbar-toggler-icon {
+width:2.5rem;
+height: 2.5rem;
+}
 
 .slick-initialized .slick-slide:focus-visible {
     outline: none;
@@ -173,7 +177,7 @@ footer a:hover {
     font-family: "Medium";
     padding: .5rem 2rem;
     outline: none;
-    margin-top: 20px;
+    margin-top: 0.1rem;
 }
 
 .read_more:focus {
@@ -186,7 +190,9 @@ footer a:hover {
     transform: 0.5s;
     transition: all 0.9s;
 }
-
+.nunc-icon{
+    margin-left: 35%;
+   }
 
 #banner_carousel .slick-img {
     width: 100%;
@@ -228,7 +234,7 @@ footer a:hover {
 
 
 .bg-shade {
-    /* background: var(--color-bg1); */
+    background: var(--color-bg1);
     background: #f0f0f0;
 }
 
@@ -280,9 +286,6 @@ footer a:hover {
 }
 
 
-/* nav div>.media .slick-initialized .slick-slide {
-    display: flex !important;
-} */
 
 .clients-left,
 .clients-right {
@@ -295,22 +298,10 @@ footer a:hover {
 
 }
 
-/* #client_carousel .slick-next::before {
-    right: 0;
-    position: absolute;
-}
-
-#client_carousel .slick-prev::before {
-    left: 0;
-    position: absolute;
-} */
-
-
-
 #client_carousel .slick-prev:before,
 #client_carousel .slick-next:before {
 
-    color: var(--color-border);
+ color: var(--color-border);
 }
 
 .clients-message-content {
@@ -612,12 +603,10 @@ footer a:hover {
 
 
 @media screen and (min-width:601px) {
-    .display2 {
-        font-size: 5rem;
-        display: block;
-    }
 
-
+   .nunc-icon{
+    margin-left: 0%;
+   }
 
     #case_studies_carousel .slick-next {
         right: -3% !important;
@@ -650,7 +639,6 @@ footer a:hover {
         font-size: 5rem;
     }
 
-
     .insights-box {
         width: 60%;
     }
@@ -682,14 +670,6 @@ footer a:hover {
         margin-top: 90px;
         height: calc(100% - 90px);
     }
-
-    /* .slick-next {
-        right: 0 !important;
-    }
-    
-    .slick-prev {
-        left: 0px !important;
-    } */
 
 }
 

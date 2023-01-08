@@ -220,12 +220,12 @@ document.addEventListener("scroll", (event) => {
     chatbot.style.cssText = `top: ${footerEl.getBoundingClientRect().y - chatbot.getBoundingClientRect().height - 10}px;transform:none;`;
   }
   else {
-    chatbot.style.cssText = `top: ${banner.getBoundingClientRect().height - 80}px; transform: none;`;
+    chatbot.style.cssText = `top: ${banner.getBoundingClientRect().height - 100}px; transform: none;`;
   }
 
 })
 
 
 document.addEventListener("DOMContentLoaded", () => {
-  chatbot.style.cssText = `top: ${banner.getBoundingClientRect().height - 80}px; transform: none;`;
+  chatbot.style.cssText = `top: ${banner.getBoundingClientRect().height - 100}px; transform: none;`;
 });
