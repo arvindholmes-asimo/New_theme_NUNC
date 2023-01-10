@@ -37,18 +37,19 @@
 }
 
 #what_we_offer .grid-container {
-    margin: 100px 20px 0;
+    margin: 100px 20px -40px;
     text-align: center;
     display: grid;
 }
 
 .circle img {
-    width: 60px;
+   width: clamp(50%, 5vw, 90px);
+   height: clamp(50%, 5vw, 90px);
 }
 
 .content {
-    margin-top: 56px;
-    height: calc(100% - 56px);
+    margin-top: 60px;
+    height: calc(100% - 60px);
     cursor: pointer;
 }
 
@@ -126,7 +127,7 @@
     }
 
     .grid-item {
-        min-height: 180px;
+        min-height: 160px;
     }
 
     .grid-item:nth-child(8n + 4) {
