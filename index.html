@@ -36,7 +36,7 @@
 <body>
     <header>
 
-        <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top" aria-label="">
+        <nav class="navbar navbar-expand-md navbar-light bg-light  fixed-top headerbar" aria-label="">
             <div class="container-fluid">
                 <div class="nunc-icon">
                     <a class="nunc" href="./index.html">
@@ -44,8 +44,9 @@
                     </a>
                 </div>
                 <div>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" aria-expanded="false"
-                        aria-label="Toggle navigation">
+                    <button class="navbar-toggler" id="hamber" type="button" data-bs-toggle="collapse"
+                        onclick="myfunction()" aria-expanded="false" aria-label="Toggle navigation"
+                        data-target="#collapsibleNavbar">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
@@ -80,7 +81,7 @@
                             <ul class="dropdown-menu custom-dropdown" aria-labelledby="navbarDropdownMenuLink">
                                 <ul>
                                     <li>
-                                        <a class="dropdown-item custom-nav-color" href="salesforce.html">Salesforce</a>
+                                        <a class="dropdown-item" href="salesforce.html">Salesforce</a>
                                     </li>
                                     <li>
                                         <a class="dropdown-item" href="Implementation.html">Implementation</a>
@@ -112,7 +113,7 @@
                                 </ul>
                                 <ul>
                                     <li>
-                                        <a class="dropdown-item custom-nav-color" href="mobility.html">Mobility</a>
+                                        <a class="dropdown-item " href="mobility.html">Mobility</a>
                                     </li>
 
                                     <li>
@@ -748,6 +749,14 @@
     </script> -->
 
     <script>
+        function (myFunction) {
+            var x = document.getElementById("hamburger");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
         const year = document.getElementById('year');
         year.textContent = new Date().getFullYear();
     </script>

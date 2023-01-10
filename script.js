@@ -229,3 +229,13 @@ document.addEventListener("scroll", (event) => {
 document.addEventListener("DOMContentLoaded", () => {
   chatbot.style.cssText = `top: ${banner.getBoundingClientRect().height - 100}px; transform: none;`;
 });
+
+
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
