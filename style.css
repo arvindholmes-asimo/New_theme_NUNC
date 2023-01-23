@@ -141,14 +141,19 @@ footer a:hover {
 }
 
 .headerbar {
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     z-index: 30;
-    display: flex;
+    display:flex;
     justify-content: space-between;
     align-items: center;
     background-color:var(--color-white) !important;
     padding: 0px 25px;
+}
+
+#nunc__logo {
+    height: 45px;
+    margin: 4px auto;
 }
 .navbar-light .navbar-nav .nav-link {
     margin-right: 10px;
@@ -167,6 +172,7 @@ footer a:hover {
 
 .navbar-nav .nav-item .nav-link {
     padding: 1.1rem 1rem;
+    text-align: center;
 }
 
 .dropdown-item a {
@@ -181,18 +187,20 @@ footer a:hover {
     display: block;
 }
 
-.dropdown:hover>.custom-dropdown {
+.custom-big:hover>.custom-dropdown {
     display: block;
 }
 
-.custom-big:hover>.custom-dropdown {
-    display: flex !important;
 
-}
 
 #collapsibleNavbar {
     margin: 0 auto;
 }
+/* 
+.collapse:not(.show) {
+    display: block;
+    text-align: center;
+} */
 
 .dropdown-menu {
     position: absolute;
@@ -232,7 +240,7 @@ footer a:hover {
 }
 
 .read_more {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     background: transparent;
     border: 2px solid #179BD7;
     color: var(--color-white);
@@ -671,6 +679,9 @@ a.anchor {
 
 @media screen and (min-width:601px) {
 
+
+    
+
     .nunc-icon {
         margin-left: 0%;
     }
@@ -748,8 +759,30 @@ a.anchor {
     #case_studies_carousel .slick-prev {
         bottom: 0;
     }
+    .read_more {
+        font-size: 1.5rem;}
+        #nunc__logo {
+            margin: 0;
+        }
+        .custom-big:hover>.custom-dropdown {
+            display: flex !important;
+        
+        }
 
+}
+@media only screen and (max-width:768px) {
+    .custom-big .custom-dropdown {
+        margin-left: 0!important;
+    }
+    .custom-dropdown, .dropdown {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 420px){
 
+    .custom-dropdown {
+        margin-left: 0;
+    }
 }
 
 @media only screen and (min-width:768px) {
@@ -771,11 +804,5 @@ a.anchor {
 @media screen and (min-width:992px) {
     .our-latest-work-wrapper {
         padding-top: 9.8rem;
-    }
-}
-@media (max-width: 1200px){
-
-    .headerbar {
-        position: absolute !important;
     }
 }
