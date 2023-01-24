@@ -49,8 +49,8 @@
             <div class="collapse navbar-collapse headerbar " id="#collapsibleNavbar" style="display: none;">
                 <ul class="navbar-nav ml-auto mb-2 mb-sm-0">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuLink" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false" Dropdown link>Insights</a>
+                        <div class="nav-link dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false" Dropdown link>Insights</div>
                         <ul class="dropdown-menu custom-dropdown" aria-labelledby="dropdownMenuLink">
 
                             <li>
@@ -70,8 +70,9 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown custom-big">
-                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
-                            aria-expanded="false">Services</a>
+                        <div class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false" Dropdown link>Services
+                        </div>
                         <ul class="dropdown-menu custom-dropdown" aria-labelledby="navbarDropdownMenuLink">
                             <ul>
                                 <li>
@@ -749,7 +750,8 @@
         // action
         function openNav() {
             if (headerbar.style.display === 'none') {
-                headerbar.style.display = 'block';
+                headerbar.style.display = 'inline-block';
+                headerbar.style.transform = "translateY:65%";
             }
             else {
                 headerbar.style.display = "none"
