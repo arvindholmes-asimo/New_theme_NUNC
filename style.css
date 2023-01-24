@@ -340,7 +340,9 @@ footer a:hover {
     margin: 0 auto;
     padding: 1.5rem 0;
 }
-
+.dropdown-item{
+    font-size: 14px;
+}
 
 .para {
     width: 100%;
