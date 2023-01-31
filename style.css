@@ -179,55 +179,25 @@ footer a:hover {
     font-size: 1.6rem !important;
 }
 
-.custom-dropdown ul {
-    list-style: none;
-    padding: unset;
-}
-
-.navbar-nav li:hover>ul.dropdown-menu {
-    display: block;
-}
-
-.navbar-nav li.custom-big:hover>ul.dropdown-menu.custom-dropdown {
-    display: inline-block;
-    margin: 0;
+.dropdown-menu.column-count-details {
     max-height: 50vh;
+    height: 100%;
     overflow-y: scroll;
 }
 
-
-
-
 #collapsibleNavbar {
-    margin: 0 auto;
+    flex-grow: initial;
 }
-
-/* 
-.collapse:not(.show) {
-    display: block;
-    text-align: center;
-} */
 
 .dropdown-menu {
     position: absolute;
     margin-top: 0px;
     left: auto !important;
     right: 0;
-
 }
 
-.custom-big .custom-dropdown {
-    right: 0;
-    margin-right: -300%;
-    left: auto !important;
-}
-
-.custom-dropdown {
-    background: var(--color-bg1);
-    color: var(--color-black);
-    height: auto;
-    position: relative;
-    box-shadow: 0 6px 12px 0 rgb(0 0 0 / 10%);
+.dropdown-menu.dropdown-menu-list {
+    text-align: center;
 }
 
 .slick-initialized .slick-slide:focus-visible {
@@ -340,7 +310,8 @@ footer a:hover {
     margin: 0 auto;
     padding: 1.5rem 0;
 }
-.dropdown-item{
+
+.dropdown-item {
     font-size: 14px;
 }
 
@@ -387,7 +358,10 @@ footer a:hover {
     flex-wrap: wrap;
     font-size: 2.1rem;
     color: var(--color-primary);
-    justify-content: flex-end;
+    justify-content: center;
+}
+.blockquote-footer::before {
+    display: none;
 }
 
 .our-latest-work-wrapper {
@@ -767,25 +741,20 @@ a.anchor {
 }
 
 @media only screen and (max-width:768px) {
-    .custom-big .custom-dropdown {
-        margin-left: 0 !important;
-    }
-
-    .custom-dropdown,
     .dropdown {
         text-align: center;
     }
 }
 
-@media screen and (max-width: 420px) {
-
-    .custom-dropdown {
-        margin-left: 0;
-    }
-}
-
 @media only screen and (min-width:768px) {
 
+    .dropdown-menu.column-count-details {
+        column-count: 4;
+        max-height: unset;
+        height: auto;
+        overflow-y: hidden;
+        margin-right: -270%;
+    }
 
     .clients-left,
     .clients-right {
@@ -797,19 +766,6 @@ a.anchor {
         width: 55%;
         margin: auto;
     }
-
-    .navbar-nav li.custom-big:hover>ul.dropdown-menu.custom-dropdown {
-        display: flex !important;
-        margin-right: -300%;
-        max-height: unset;
-        overflow-y: unset;
-
-    }
-
-    .navbar-nav li:hover>ul.dropdown-menu {
-        display: block;
-    }
-
 }
 
 @media screen and (min-width:992px) {
