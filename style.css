@@ -117,7 +117,7 @@ ul {
 
 .navbar {
     box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
-    /* z-index: 99999; */
+    z-index: 99999;
 }
 
 p {
@@ -239,6 +239,24 @@ footer a:hover {
     position: absolute;
     top: 30%;
     left: 10%;
+    color: var(--color-white);
+    z-index: 9999;
+    font-family: "Bold";
+    text-align: left;
+}
+.blockchain-heading{
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+    color: var(--color-white);
+    z-index: 9999;
+    font-family: "Bold";
+    text-align: left;
+}
+.bigdata-heading{
+    position: absolute;
+    bottom: 30%;
+    left: 5%;
     color: var(--color-white);
     z-index: 9999;
     font-family: "Bold";
@@ -743,21 +761,22 @@ tr {
 
 .banner-img {
     width: 100%;
+    
 }
 
 .banner {
     margin: 0 auto;
     margin-top: 60px;
 }
-.blockchain-banner{
-    background: url('https://www.nuncsystems.com/img/block_chain/blockchain.png');
+/* .blockchain-banner{
+    background: url('./img/blockchain-banner.svg');
     width: 100%;
     height: 400px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-.demo-btn {
+} */
+/* .demo-btn {
     background: orange;
     background: rgb(254,45,19);
 background: linear-gradient(90deg, rgba(254,45,19,1) 70%, rgba(254,45,19,1) 100%, rgba(246,146,30,1) 100%, rgba(246,146,30,1) 100%);
@@ -768,17 +787,19 @@ background: linear-gradient(90deg, rgba(254,45,19,1) 70%, rgba(254,45,19,1) 100%
     border-radius: 20px;
     padding: 5px 0px;
     margin: 20px auto;
-}
+} */
 
-.demo-btn:focus {
+/* .demo-btn:focus {
     outline: none;
-}
+} */
 
-.demo-btn:hover {
+/* .demo-btn:hover {
     background: blue;
     color: var(--color-white);
+} */
+.content-img{
+    max-width: 100%;
 }
-
 @media screen and (min-width:601px) {
 
     .nunc-icon {
