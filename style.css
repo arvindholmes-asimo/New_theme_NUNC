@@ -117,6 +117,7 @@ ul {
 
 .navbar {
     box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+    /* z-index: 99999; */
 }
 
 p {
@@ -267,7 +268,7 @@ footer a:hover {
 }
 
 .nunc-icon {
-    margin-left: 35%;
+    /* margin-left: 35%; */
 }
 
 #banner_carousel .slick-img {
@@ -301,7 +302,6 @@ footer a:hover {
 
 .bg-shade {
     background: var(--color-bg1);
-    background: #f0f0f0;
 }
 
 .bg-bright {
@@ -340,9 +340,11 @@ footer a:hover {
     margin: 0 auto;
     padding: 1.5rem 0;
 }
-.dropdown-item{
+
+.dropdown-item {
     font-size: 14px;
 }
+
 .dropdown-item:hover {
     color: var(--color-white);
     text-decoration: none;
@@ -394,9 +396,11 @@ footer a:hover {
     color: var(--color-primary);
     justify-content: center;
 }
+
 .blockquote-footer::before {
-display: none;
+    display: none;
 }
+
 .our-latest-work-wrapper {
     padding-top: 0rem;
 }
@@ -679,6 +683,99 @@ display: none;
 
 a.anchor {
     text-decoration: none;
+    color: var(--color-white);
+}
+
+.card-img {
+    width: 80px;
+}
+
+.card {
+    border: none;
+}
+
+.card-body {
+    text-align: center;
+    align-items: center;
+    background-color: var(--color-bg1);
+    border-radius: 20px;
+    border: 1px solid var(--color-primary);
+
+}
+
+.card-title {
+    color: var(--color-primary);
+    margin-top: .75rem;
+}
+
+.card-row {
+    gap: 30px 0px;
+}
+
+.card-text {
+    color: var(--color-black);
+    font-size: 1.6rem;
+    margin-top: 15px;
+}
+
+tr {
+    justify-items: center;
+
+}
+
+.side-heading {
+    width: 140px;
+}
+
+.benefit-container {
+    margin: 20px auto;
+}
+
+.dots {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--color-black);
+    margin-right: 8px;
+
+}
+
+.banner-img {
+    width: 100%;
+}
+
+.banner {
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.blockchain-banner{
+    background: url('https://www.nuncsystems.com/img/block_chain/blockchain.png');
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.demo-btn {
+    background: orange;
+    background: rgb(254,45,19);
+background: linear-gradient(90deg, rgba(254,45,19,1) 70%, rgba(254,45,19,1) 100%, rgba(246,146,30,1) 100%, rgba(246,146,30,1) 100%);
+    color: var(--color-white);
+    min-width: 250px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 0px;
+    margin: 20px auto;
+}
+
+.demo-btn:focus {
+    outline: none;
+}
+
+.demo-btn:hover {
+    background: blue;
     color: var(--color-white);
 }
 

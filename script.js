@@ -190,16 +190,13 @@ $(document).ready(function () {
 })
 
 
-// find more button 
-const btnTarget = document.querySelector("#what_we_offer .grid-item:last-child");
-const findOutMoreTemplate = `<button class="more-btn">Find out more</button>`;
-btnTarget.insertAdjacentHTML("afterbegin", findOutMoreTemplate);
+
 
 
 // chatbot 
 const footerEl = document.querySelector('.footer-container');
 const chatbot = document.querySelector('.chatbot');
-const banner = document.querySelector('#banner_carousel');
+// const banner = document.querySelector('#banner_carousel');
 
 function isInViewport(ele) {
   const { top, bottom } = ele.getBoundingClientRect();
@@ -230,3 +227,21 @@ document.addEventListener("DOMContentLoaded", () => {
   chatbot.style.cssText = `top: ${banner.getBoundingClientRect().height - 100}px; transform: none;`;
 });
 
+// let menu = document.getElementById('hamberger-menu');
+// let headerbar = document.querySelector('.headerbar');
+// menu.addEventListener('toggle', openNav);
+// // action
+// function openNav() {
+//     if (headerbar.style.display === 'none') {
+//         headerbar.style.display = 'inline-block';
+//         headerbar.style.transform = "translateY:65%";
+//     }
+//     else {
+//         headerbar.style.display = "none"
+//     }
+
+// }
+
+
+const year = document.getElementById('year');
+year.textContent = new Date().getFullYear();

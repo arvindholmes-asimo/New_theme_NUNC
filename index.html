@@ -475,8 +475,8 @@
                                             Mobile
                                             developer.
                                         <footer class="blockquote-footer ">Mr. Sam, Gol
-                                                Media, Malaysia.
-                                        </p>
+                                            Media, Malaysia.
+                                            </p>
                                     </div>
                                 </div>
                                 <div class="media">
@@ -489,8 +489,8 @@
                                             Mobile
                                             developer.
                                         <footer class="blockquote-footer ">Mr. Sam, Gol
-                                                Media, Malaysia.
-                                        </p>
+                                            Media, Malaysia.
+                                            </p>
                                     </div>
                                 </div>
                                 <div class="media">
@@ -503,8 +503,8 @@
                                             Mobile
                                             developer.
                                         <footer class="blockquote-footer ">Mr. Sam, Gol
-                                                Media, Malaysia.
-                                        </p>
+                                            Media, Malaysia.
+                                            </p>
 
                                     </div>
                                 </div>
@@ -737,13 +737,12 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" crossorigin="anonymous"
         referrerpolicy="no-referrer"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
-    <script>
-        const observer = lozad();
-        observer.observe();
-    </script> -->
 
     <script>
+        // find more button 
+        const btnTarget = document.querySelector("#what_we_offer .grid-item:last-child");
+        const findOutMoreTemplate = `<button class="more-btn">Find out more</button>`;
+        btnTarget.insertAdjacentHTML("afterbegin", findOutMoreTemplate);
         let menu = document.getElementById('hamberger-menu');
         let headerbar = document.querySelector('.headerbar');
         menu.addEventListener('toggle', openNav);
@@ -759,9 +758,37 @@
 
         }
 
+        // chatbot 
+const banner = document.querySelector('#banner_carousel');
 
-        const year = document.getElementById('year');
-        year.textContent = new Date().getFullYear();
+function isInViewport(ele) {
+  const { top, bottom } = ele.getBoundingClientRect();
+  const vHeight = (window.innerHeight || document.documentElement.clientHeight);
+
+  return (
+    (top > 0 || bottom > 0) &&
+    top < vHeight
+  );
+}
+
+document.addEventListener("scroll", (event) => {
+  const status = isInViewport(footerEl);
+  console.log(status);
+  if (status) {
+    let pos = window.innerHeight - footerEl.getBoundingClientRect().y;
+    console.log(footerEl.getBoundingClientRect().y - chatbot.getBoundingClientRect().height)
+    chatbot.style.cssText = `top: ${footerEl.getBoundingClientRect().y - chatbot.getBoundingClientRect().height - 10}px;transform:none;`;
+  }
+  else {
+    chatbot.style.cssText = `top: ${banner.getBoundingClientRect().height - 100}px; transform: none;`;
+  }
+
+})
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  chatbot.style.cssText = `top: ${banner.getBoundingClientRect().height - 100}px; transform: none;`;
+});
     </script>
     <script src="./script.js"></script>
 
