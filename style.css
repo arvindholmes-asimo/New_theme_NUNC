@@ -279,11 +279,11 @@ footer a:hover {
     transition: all 0.9s;
 }
 
-.nunc-icon {
-    /* margin-left: 35%; */
-}
+/* .nunc-icon {
+    /* margin-left: 35%; 
+} */
 
-#banner_carousel .slick-img {
+#banner_carousel .slick-img, .hero-container .banner-img {
     width: 100%;
     height: 280px;
     max-height: 500px;
@@ -762,35 +762,7 @@ tr {
     margin: 0 auto;
     margin-top: 60px;
 }
-/* .blockchain-banner{
-    background: url('./img/blockchain-banner.svg');
-    width: 100%;
-    height: 400px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
-/* .demo-btn {
-    background: orange;
-    background: rgb(254,45,19);
-background: linear-gradient(90deg, rgba(254,45,19,1) 70%, rgba(254,45,19,1) 100%, rgba(246,146,30,1) 100%, rgba(246,146,30,1) 100%);
-    color: var(--color-white);
-    min-width: 250px;
-    outline: none;
-    border: none;
-    border-radius: 20px;
-    padding: 5px 0px;
-    margin: 20px auto;
-} */
 
-/* .demo-btn:focus {
-    outline: none;
-} */
-
-/* .demo-btn:hover {
-    background: blue;
-    color: var(--color-white);
-} */
 .content-img{
     max-width: 100%;
 }
@@ -825,9 +797,10 @@ background: linear-gradient(90deg, rgba(254,45,19,1) 70%, rgba(254,45,19,1) 100%
         min-height: 100px;
     }
 
-    #banner_carousel .slick-img {
+    #banner_carousel .slick-img ,.hero-container .banner-img{
         height: 450px;
     }
+    
 
     .display1 {
         font-size: 5rem;
