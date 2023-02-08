@@ -200,7 +200,7 @@
     <main>
         <!--carousel banner-->
         <section class="carousal">
-            <div class="slider autoplay" id="banner_carousel">
+            <div class="slider autoplay hero-container" id="banner_carousel">
                 <div class="caption position-relative">
                     <img class="slick-img" src="./img/banner1-01.jpg">
                     <div class="banner_heading">
@@ -743,52 +743,9 @@
         const btnTarget = document.querySelector("#what_we_offer .grid-item:last-child");
         const findOutMoreTemplate = `<button class="more-btn">Find out more</button>`;
         btnTarget.insertAdjacentHTML("afterbegin", findOutMoreTemplate);
-        let menu = document.getElementById('hamberger-menu');
-        let headerbar = document.querySelector('.headerbar');
-        menu.addEventListener('toggle', openNav);
-        // action
-        function openNav() {
-            if (headerbar.style.display === 'none') {
-                headerbar.style.display = 'inline-block';
-                headerbar.style.transform = "translateY:65%";
-            }
-            else {
-                headerbar.style.display = "none"
-            }
 
-        }
+     
 
-        // chatbot 
-const banner = document.querySelector('#banner_carousel');
-
-function isInViewport(ele) {
-  const { top, bottom } = ele.getBoundingClientRect();
-  const vHeight = (window.innerHeight || document.documentElement.clientHeight);
-
-  return (
-    (top > 0 || bottom > 0) &&
-    top < vHeight
-  );
-}
-
-document.addEventListener("scroll", (event) => {
-  const status = isInViewport(footerEl);
-  console.log(status);
-  if (status) {
-    let pos = window.innerHeight - footerEl.getBoundingClientRect().y;
-    console.log(footerEl.getBoundingClientRect().y - chatbot.getBoundingClientRect().height)
-    chatbot.style.cssText = `top: ${footerEl.getBoundingClientRect().y - chatbot.getBoundingClientRect().height - 10}px;transform:none;`;
-  }
-  else {
-    chatbot.style.cssText = `top: ${banner.getBoundingClientRect().height - 100}px; transform: none;`;
-  }
-
-})
-
-
-document.addEventListener("DOMContentLoaded", () => {
-  chatbot.style.cssText = `top: ${banner.getBoundingClientRect().height - 100}px; transform: none;`;
-});
     </script>
     <script src="./script.js"></script>
 

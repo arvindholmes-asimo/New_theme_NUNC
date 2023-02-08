@@ -253,6 +253,9 @@ footer a:hover {
     font-family: "Bold";
     text-align: left;
 }
+.banner-text > h2{
+    font-family: "Regular";
+}
 
 .read_more {
     font-size: 1.3rem;
