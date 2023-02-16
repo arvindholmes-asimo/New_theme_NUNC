@@ -416,9 +416,9 @@ footer a:hover {
     min-height: calc(100% - 20px);
 }
 
-.services-item > a{
+.services-item>a {
     text-align: center;
-    text-decoration: none; 
+    text-decoration: none;
     color: var(--color-black);
 }
 
@@ -826,10 +826,11 @@ tr {
 
 
 
-.service-border{
-    width: 140px;
-    height: 140px;
-}
+    .service-border {
+        width: 140px;
+        height: 140px;
+    }
+
     .nunc-icon {
         margin-left: 0%;
     }
@@ -949,7 +950,7 @@ tr {
 
     .salesforce-services {
         grid-template-columns: repeat(3, 1fr);
-        gap:30px;
+        gap: 30px;
     }
 
     .sf_bg {
@@ -994,8 +995,9 @@ tr {
     .service-white-bg {
         width: 115px;
         height: 115px;
-    
+
     }
+
     .service-border:hover .service-white-bg {
         width: 120px;
         height: 120px;
