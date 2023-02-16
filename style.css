@@ -47,7 +47,7 @@ html {
 
 body {
     background: #f4f4f4;
-    z-index: 1;
+    /* z-index: 1; */
     font-family: "Regular";
     margin: 0 auto;
     font-size: 1.8rem;
@@ -147,7 +147,6 @@ footer a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background-color: var(--color-white); */
     padding: 0px 25px;
 }
 
@@ -196,18 +195,9 @@ footer a:hover {
     overflow-y: scroll;
 }
 
-
-
-
 #collapsibleNavbar {
     margin: 0 auto;
 }
-
-/* 
-.collapse:not(.show) {
-    display: block;
-    text-align: center;
-} */
 
 .dropdown-menu {
     position: absolute;
@@ -244,7 +234,8 @@ footer a:hover {
     font-family: "Bold";
     text-align: left;
 }
-.banner-text{
+
+.banner-text {
     position: absolute;
     top: 30%;
     left: 5%;
@@ -253,7 +244,8 @@ footer a:hover {
     font-family: "Bold";
     text-align: left;
 }
-.banner-text > h2{
+
+.banner-text>h2 {
     font-family: "Regular";
 }
 
@@ -283,7 +275,8 @@ footer a:hover {
     /* margin-left: 35%; 
 } */
 
-#banner_carousel .slick-img, .hero-container .banner-img {
+#banner_carousel .slick-img,
+.hero-container .banner-img {
     width: 100%;
     height: 280px;
     max-height: 500px;
@@ -371,6 +364,9 @@ footer a:hover {
     letter-spacing: 0.2px;
     color: var(--color-body);
 }
+.p-para{
+    text-align: left;
+}
 
 
 
@@ -400,6 +396,76 @@ footer a:hover {
     margin: auto;
 }
 
+.service-container {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.salesforce-services {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+
+}
+
+.services-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100% - 20px);
+
+
+}
+
+.service-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-border {
+    /* background: var(--color-primary-light); */
+    background: #a1e0ff66;
+    border-radius: 50%;
+    width: clamp(110px, 12vw, 160px);
+    height: clamp(110px, 12vw, 160px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.20);
+    margin-bottom: 20px;
+    /* box-shadow: inset 0 2px 12px rgb(0 0 0 / 16%), 0 2px 6px rgb(0 0 0 / 16%); */
+
+}
+.service-img{
+    width: clamp(50%,8vw,100px);
+    height: clamp(50%,8vw,100px);
+}
+
+
+.service-white-bg {
+    background: var(--color-white);
+    border-radius: 50%;
+    width: clamp(90px, 8vw, 130px);
+    height: clamp(90px, 8vw, 130px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 3px 6px 1px rgba(0, 0, 0, 0.20);
+    /* box-shadow: 0 3px 6px rgb(0 0 0 / 16%); */
+
+}
+
+.heading-space {
+    margin: 3rem auto;
+    color:var(--color-primary)
+}
+
+.flex-item-2 {
+    padding: 0;
+    background: unset;
+}
 
 .blockquote-footer {
     display: flex;
@@ -554,7 +620,6 @@ footer a:hover {
     margin: 0 auto;
     width: 100%;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
 }
 
 .insights-item {
@@ -569,25 +634,6 @@ footer a:hover {
     background-color: var(--color-primary);
 }
 
-.item:nth-of-type(1) {
-    grid-row: 1/2;
-    grid-column: 1/2;
-}
-
-.item:nth-of-type(2) {
-    grid-row: 1/2;
-    grid-column: 2/3;
-}
-
-.item:nth-of-type(3) {
-    grid-row: 2/3;
-    grid-column: 1/2;
-}
-
-.item:nth-of-type(4) {
-    grid-row: 2/3;
-    grid-column: 2/3;
-}
 
 .awards-section {
     width: 90%;
@@ -610,7 +656,6 @@ footer a:hover {
     width: 100%;
     color: #fff;
     margin: 0 auto;
-    text-align: center;
 }
 
 
@@ -643,7 +688,7 @@ footer a:hover {
 }
 
 .footer-bottom-holder span,
-.copyright>a {
+.copyright>div>a {
     font-size: 1.6rem;
     margin: 2rem auto;
 }
@@ -755,7 +800,7 @@ tr {
 
 .banner-img {
     width: 100%;
-    
+
 }
 
 .banner {
@@ -763,11 +808,21 @@ tr {
     margin-top: 60px;
 }
 
-.content-img{
+.content-img {
     max-width: 100%;
 }
-@media screen and (min-width:601px) {
 
+.sf_bg {
+    padding: 0;
+    background: url(./img/salesforce/salesforce_services.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+@media screen and (min-width:601px) {
+ 
     .nunc-icon {
         margin-left: 0%;
     }
@@ -787,6 +842,7 @@ tr {
     }
 
 
+
     .chatbot a>img {
         width: 160px;
     }
@@ -797,10 +853,11 @@ tr {
         min-height: 100px;
     }
 
-    #banner_carousel .slick-img ,.hero-container .banner-img{
+    #banner_carousel .slick-img,
+    .hero-container .banner-img {
         height: 450px;
     }
-    
+
 
     .display1 {
         font-size: 5rem;
@@ -878,11 +935,33 @@ tr {
 
 @media only screen and (min-width:768px) {
 
+    .para,.p-para{
+        text-align: center;
+     }
+    .salesforce-services {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .sf_bg {
+        height: 100%;
+        background-size: cover;
+        background-position: top;
+    }
 
     .clients-left,
     .clients-right {
         display: block;
         width: 20%;
+    }
+
+    .service-container {
+        flex-direction: row;
+    }
+
+    .flex-item-1 {
+        width: 50%;
+        margin-bottom: 75px;
+
     }
 
     .what-our-clients-message {
