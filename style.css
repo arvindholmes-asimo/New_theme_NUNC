@@ -364,10 +364,12 @@ footer a:hover {
     letter-spacing: 0.2px;
     color: var(--color-body);
 }
+
 /* added  to p-tag for the alignment in salesforce.html to avoid unwanted styles */
-.p-para{
+.p-para {
     text-align: left;
 }
+
 .clients-left,
 .clients-right {
     display: none;
@@ -402,7 +404,7 @@ footer a:hover {
 .salesforce-services {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
+    gap: 20px;
 
 }
 
@@ -412,52 +414,53 @@ footer a:hover {
     justify-content: center;
     align-items: center;
     min-height: calc(100% - 20px);
-
-
 }
 
-.service-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.services-item > a{
+    text-align: center;
+    text-decoration: none; 
+    color: var(--color-black);
+}
+
+.services-border:hover .service-white-bg {
+    width: 100px;
+    height: 100px;
 }
 
 .service-border {
-    /* background: var(--color-primary-light); */
     background: #a1e0ff66;
     border-radius: 50%;
-    width: clamp(110px, 12vw, 160px);
-    height: clamp(110px, 12vw, 160px);
+    width: 110px;
+    height: 110px;
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.20);
     margin-bottom: 20px;
-    /* box-shadow: inset 0 2px 12px rgb(0 0 0 / 16%), 0 2px 6px rgb(0 0 0 / 16%); */
 
 }
-.service-img{
-    width: clamp(50%,8vw,100px);
-    height: clamp(50%,8vw,100px);
+
+.service-img {
+    width: clamp(65%, 8vw, 90px);
+    height: clamp(65%, 8vw, 90px);
 }
 
 
 .service-white-bg {
     background: var(--color-white);
     border-radius: 50%;
-    width: clamp(90px, 8vw, 130px);
-    height: clamp(90px, 8vw, 130px);
+    width: 90px;
+    height: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 0px 3px 6px 1px rgba(0, 0, 0, 0.20);
-    /* box-shadow: 0 3px 6px rgb(0 0 0 / 16%); */
 
 }
 
 .heading-space {
     margin: 3rem auto;
-    color:var(--color-primary)
+    color: var(--color-primary)
 }
 
 .flex-item-2 {
@@ -820,7 +823,13 @@ tr {
 }
 
 @media screen and (min-width:601px) {
- 
+
+
+
+.service-border{
+    width: 140px;
+    height: 140px;
+}
     .nunc-icon {
         margin-left: 0%;
     }
@@ -933,11 +942,14 @@ tr {
 
 @media only screen and (min-width:768px) {
 
-    .para,.p-para{
+    .para,
+    .p-para {
         text-align: center;
-     }
+    }
+
     .salesforce-services {
         grid-template-columns: repeat(3, 1fr);
+        gap:30px;
     }
 
     .sf_bg {
@@ -977,6 +989,16 @@ tr {
 
     .navbar-nav li:hover>ul.dropdown-menu {
         display: block;
+    }
+
+    .service-white-bg {
+        width: 115px;
+        height: 115px;
+    
+    }
+    .service-border:hover .service-white-bg {
+        width: 120px;
+        height: 120px;
     }
 
 }
