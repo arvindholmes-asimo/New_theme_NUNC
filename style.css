@@ -364,12 +364,10 @@ footer a:hover {
     letter-spacing: 0.2px;
     color: var(--color-body);
 }
+/* added  to p-tag for the alignment in salesforce.html to avoid unwanted styles */
 .p-para{
     text-align: left;
 }
-
-
-
 .clients-left,
 .clients-right {
     display: none;
