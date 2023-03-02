@@ -957,7 +957,7 @@ tr {
     gap: 30px;
 }
 
-.webtech-grid-container {
+.mobtech-grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
@@ -1207,7 +1207,7 @@ tr {
         grid-template-columns: repeat(3, 200px);
     }
 
-    .webtech-grid-container {
+    .mobtech-grid-container {
         grid-template-columns: repeat(3, 200px);
     }
 
