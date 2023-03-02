@@ -148,7 +148,7 @@ footer a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 25px;
+    padding: 0 25px;
 }
 
 #nunc__logo {
@@ -203,7 +203,7 @@ footer a:hover {
 
 .dropdown-menu {
     position: absolute;
-    margin-top: 0px;
+    margin-top: 0;
     left: auto !important;
     right: 0;
 
@@ -290,7 +290,7 @@ footer a:hover {
 }
 
 .slick-dotted.slick-slider {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 #client_carousel .slick-next {
@@ -438,12 +438,12 @@ footer a:hover {
     margin: 40px auto;
     width: 100%;
     max-width: fit-content;
-    -webkit-box-shadow: 0px 4px 8px 0px rgba(112, 112, 112, 1);
-    -moz-box-shadow: 0px 4px 8px 0px rgba(112, 112, 112, 1);
-    box-shadow: 0px 4px 8px 0px rgba(112, 112, 112, 1);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(112, 112, 112, 1);
+    -moz-box-shadow: 0 4px 8px 0 rgba(112, 112, 112, 1);
+    box-shadow: 0 4px 8px 0 rgba(112, 112, 112, 1);
 }
 
-.services-item>a {
+.services-item > a {
     text-align: center;
     text-decoration: none;
     color: var(--color-black);
@@ -462,7 +462,7 @@ footer a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.20);
+    box-shadow: 0 2px 6px 1px rgba(0, 0, 0, 0.20);
     margin-bottom: 20px;
 
 }
@@ -481,7 +481,7 @@ footer a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0px 3px 6px 1px rgba(0, 0, 0, 0.20);
+    box-shadow: 0 3px 6px 1px rgba(0, 0, 0, 0.20);
 
 }
 
@@ -499,7 +499,7 @@ footer a:hover {
 .flex-item-1 {
     width: 100%;
     margin-bottom: 75px;
-    padding: 0 10px;
+    padding: 0 18px;
 
 }
 
@@ -521,7 +521,7 @@ footer a:hover {
 }
 
 #our_latest_work .grid-container {
-    margin: 60px 0px;
+    margin: 60px 0;
     display: grid;
     text-align: center;
     grid-template-columns: repeat(3, 1fr);
@@ -597,7 +597,7 @@ footer a:hover {
     background: none;
     border: 1px solid var(--color-primary);
     border-radius: 3px;
-    padding: 0px 24px;
+    padding: 0 24px;
     background: none;
 }
 
@@ -824,7 +824,7 @@ a.anchor {
 }
 
 .card-row {
-    gap: 20px 0px;
+    gap: 20px 0;
 }
 
 .card-text {
@@ -957,7 +957,7 @@ tr {
     gap: 30px;
 }
 
-.mobtech-grid-container {
+.mobtech-grid-container ,.webtech-grid-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
@@ -1207,7 +1207,7 @@ tr {
         grid-template-columns: repeat(3, 200px);
     }
 
-    .mobtech-grid-container {
+    .mobtech-grid-container,.webtech-grid-container {
         grid-template-columns: repeat(3, 200px);
     }
 
@@ -1363,10 +1363,6 @@ tr {
         grid-template-columns: repeat(3, 200px);
     }
 
-    .webdev-grid-item:nth-child() {
-        /* border-right:2px solid #707070; */
-
-    }
 
     .mobility_bg.desktop_img,
     .sf_bg.desktop_img,
