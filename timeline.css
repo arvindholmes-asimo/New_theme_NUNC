@@ -43,13 +43,13 @@
 }
 
 .circle img {
-   width: clamp(50%, 5vw, 90px);
-   height: clamp(50%, 5vw, 90px);
+   width: 55px;
+   height: 55px;
 }
 
 .content {
-    margin-top: 60px;
-    height: calc(100% - 60px);
+    margin-top: 55px;
+    height: calc(100% - 55px);
     cursor: pointer;
 }
 
@@ -148,6 +148,10 @@
     .grid-item:nth-child(8n + 5) {
         border-left: 4px solid var(--color-primary);
     }
+    .circle img {
+        width: 70px;
+        height: 70px;
+    }
 }
 
 .grid-item:last-child {
@@ -162,7 +166,7 @@
     font-weight: bolder;
     background: transparent;
     border: none;
-    width: 100%;
+    /* width: 100%; */
     white-space: nowrap;
     outline: none;
     cursor: pointer;
@@ -186,6 +190,7 @@
     font-size: 2.4rem;
     margin-left: 5px;
     transition: margin 0.15s;
+    transform: translateY(3px);
 
 }
 
@@ -203,6 +208,7 @@
 
     .circle img {
         width: 55px;
+        height: 55px;
     }
 
 }
