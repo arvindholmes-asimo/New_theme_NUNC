@@ -404,6 +404,7 @@ footer a:hover {
     flex-direction: column-reverse;
 }
 
+
 .salesforce-services {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -979,7 +980,6 @@ tr {
 
 .mob-grid-img {
     width: 100px;
-    height: 100px;
 }
 
 .scale-item {
@@ -1211,7 +1211,6 @@ tr {
 
     .mob-grid-img {
         width: 150px;
-        height: 150px;
     }
     .webdev-content {
         margin-top: 65px;
@@ -1420,6 +1419,7 @@ tr {
 
     .banner-container {
         flex-direction: row;
+        padding-bottom: 40px;
     }
 
     .flex-item-1 {
