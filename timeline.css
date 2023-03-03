@@ -47,10 +47,11 @@
    height: 55px;
 }
 
-.content {
-    margin-top: 55px;
-    height: calc(100% - 55px);
+.content-text {
+    /* margin-top: 48px; */
+    /* height: calc(100% - 55px); */
     cursor: pointer;
+    padding: 3px 0 0;
 }
 
 .grid-item {
@@ -118,6 +119,11 @@
     .more-btn {
         display: none;
     }
+    .content-text{
+margin-top: 48px;
+height: calc(100% - 48px);
+
+    }
 
 }
 
@@ -152,6 +158,12 @@
         width: 70px;
         height: 70px;
     }
+    .content-text {
+        margin-top: 55px;
+        height: calc(100% - 55px);
+    }
+
+
 }
 
 .grid-item:last-child {

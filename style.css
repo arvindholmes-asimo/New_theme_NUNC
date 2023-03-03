@@ -234,7 +234,7 @@ footer a:hover {
     font-family: "Bold";
     text-align: left;
 }
-
+/* bigdata banner  */
 .banner-text {
     position: absolute;
     top: 30%;
@@ -248,7 +248,7 @@ footer a:hover {
 .banner-text>h2 {
     font-family: "Regular";
 }
-
+/* indexhtml banner carousal readmore btn */
 .read_more {
     font-size: 1.3rem;
     background: transparent;
@@ -314,7 +314,7 @@ footer a:hover {
 
 
 .content-space {
-    padding: 40px 10px;
+    padding: 40px 20px;
 }
 
 #banner_carousel .slick-dots {
@@ -399,7 +399,7 @@ footer a:hover {
 }
 
 
-.service-container {
+.banner-container {
     display: flex;
     flex-direction: column-reverse;
 }
@@ -799,15 +799,15 @@ a.anchor {
 
 .text-title-big-data {
     color: var(--color-primary);
-    margin-top: .75rem;
+    /* margin-top: .75rem; */
 }
 
-.dev-container {
+.mob-dev-container{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
 }
 
-.dev-box-item {
+.mob-dev-box-item {
     display: flex;
     text-align: center;
     align-items: center;
@@ -816,7 +816,7 @@ a.anchor {
 
 }
 
-.dev-img {
+.mob-dev-img {
     width: 100px;
     height: 100px;
 }
@@ -874,7 +874,7 @@ tr {
     background-position: top center;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 240px;
+    height: 400px;
 }
 
 .mobility_bg {
@@ -1109,6 +1109,7 @@ tr {
 }
 @media screen and (max-width:600px) {
     .webdev-grid-container {
+        margin-top: 50px;
         grid-template-columns: repeat(2, 1fr)
     }
     .webdev-grid-item:nth-child(2) {
@@ -1162,6 +1163,8 @@ tr {
 
     .webdev-grid-container {
         grid-template-columns: repeat(3, 1fr);
+        margin-top: 100px;
+
     }
 
     .webdev-grid-item:nth-child(3) {
@@ -1250,7 +1253,7 @@ tr {
 
     #banner_carousel .slick-img,
     .hero-container .banner-img {
-        height: 450px;
+        height: 600px;
     }
 
     .display1 {
@@ -1334,6 +1337,11 @@ tr {
     .custom-dropdown {
         margin-left: 0;
     }
+    .bigdata-tr{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
 
 }
 
@@ -1375,7 +1383,7 @@ tr {
         padding: 80px 0;
     }
 
-    .dev-container {
+    .mob-dev-container {
         grid-template-columns: repeat(5, 1fr);
 
     }
@@ -1393,7 +1401,7 @@ tr {
     .sf_bg,
     .mobility_bg,
     .web_bg {
-        height: 92%;
+        height: 100%;
         background-position: top right;
     }
 
@@ -1404,7 +1412,7 @@ tr {
         width: 20%;
     }
 
-    .service-container {
+    .banner-container {
         flex-direction: row;
     }
 
