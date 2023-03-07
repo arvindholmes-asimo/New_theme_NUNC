@@ -368,9 +368,9 @@ footer a:hover {
 }
 
 /* added  to p-tag for the alignment in salesforce.html to avoid unwanted styles */
-.p-para {
+/* .p-para {
     text-align: left;
-}
+} */
 
 .clients-left,
 .clients-right {
@@ -399,12 +399,6 @@ footer a:hover {
 }
 
 
-.banner-container {
-    display: flex;
-    flex-direction: column-reverse;
-}
-
-
 .salesforce-services {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -413,10 +407,6 @@ footer a:hover {
 }
 
 .services-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     min-height: calc(100% - 20px);
 }
 
@@ -426,10 +416,6 @@ footer a:hover {
 }
 
 .mobility-item {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
     min-height: calc(100% - 20px);
 }
 
@@ -809,12 +795,7 @@ a.anchor {
 }
 
 .mob-dev-box-item {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    flex-direction: column;
     padding: 10px;
-
 }
 
 .mob-dev-img {
@@ -938,19 +919,12 @@ tr {
     border-radius: 10px;
     min-width: 250px;
     height: 150px;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    align-items: center;
     justify-content: space-evenly;
     background: #FBFDFF;
     width: calc(100% / 3);
 }
 
 .arch-grid-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     width: 90%;
     margin: auto;
     gap: 30px;
@@ -967,15 +941,13 @@ tr {
 }
 
 .web-dev-item {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
     border: 1px solid var(--color-primary);
     background: rgb(251, 253, 255, 255);
     border-radius: 15px;
     max-width: 220px;
     width: 100%;
     height: 150px;
+    padding: 10px;
 }
 
 .mob-grid-img {
@@ -994,19 +966,15 @@ tr {
 
 }
 
-.scale-grid-container {
-    display: flex;
-    justify-content: center;
+.webdev-scalable-container {
     gap: 50px;
     margin: 30px 0;
-    flex-wrap: wrap;
 }
 
 .webdev-grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     max-width: 600px;
-    position: relative;
     margin: 0 auto;
 }
 
@@ -1019,10 +987,6 @@ tr {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
     top: 0;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -1031,11 +995,6 @@ tr {
 
 .webdev-grid-item {
     min-height: 150px;
-    width: 100%;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
     border-top: 2px solid #707070;
 }
 
@@ -1110,7 +1069,7 @@ tr {
 @media screen and (max-width:600px) {
     .webdev-grid-container {
         margin-top: 50px;
-        grid-template-columns: repeat(2, 1fr)
+        margin-bottom: -40px;
     }
     .webdev-grid-item:nth-child(2) {
         border-right: 2px solid #707070 !important;
@@ -1170,6 +1129,7 @@ tr {
     .webdev-grid-container {
         grid-template-columns: repeat(3, 1fr);
         margin-top: 100px;
+        margin-bottom: -80px;
 
     }
 
@@ -1189,6 +1149,10 @@ tr {
 
     }
 
+    .arch-grid-container {
+        margin: 35px auto;
+        width: 90%;
+    }
     .webdev-img {
         width: 60px;
         height: 60px;
@@ -1317,10 +1281,10 @@ tr {
         height: 80px;
     }
 
-    .para,
+    /* .para,
     .p-para {
         text-align: center;
-    }
+    } */
 
 }
 
@@ -1369,10 +1333,10 @@ tr {
         display: none;
     }
 
-    .arch-grid-container {
+    /* .arch-grid-container {
         margin: 35px auto;
         width: 60%;
-    }
+    } */
 
     .our-latest-work-circle img {
         width: 120px;
@@ -1418,7 +1382,6 @@ tr {
     }
 
     .banner-container {
-        flex-direction: row;
         padding-bottom: 40px;
     }
 
