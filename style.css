@@ -1292,7 +1292,7 @@ tr {
 
 @media only screen and (max-width:768px) {
     .custom-big .custom-dropdown {
-        margin-left: 0 !important;
+        /* margin-left: 0 !important; */
     }
 
     .custom-dropdown,
