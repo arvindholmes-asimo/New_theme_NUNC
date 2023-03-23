@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="278" height="278" viewBox="0 0 278 278">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_261" data-name="Ellipse 261" cx="139" cy="139" r="139" transform="translate(1182 4639)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <radialGradient id="radial-gradient" cx="0.309" cy="0.483" fx="1.175719976425171" r="0.891" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00a4eb"/>
+      <stop offset="0.06" stop-color="#00a7ed"/>
+      <stop offset="0.26" stop-color="#00adf1"/>
+      <stop offset="0.37" stop-color="#009de6"/>
+      <stop offset="0.5" stop-color="#0085d7"/>
+      <stop offset="0.7" stop-color="#0058ba"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1b6d9b"/>
+      <stop offset="1" stop-color="#004d8a"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00bbf2"/>
+      <stop offset="0.87" stop-color="#0b87d3"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" y1="0.5" x2="0.999" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0.06" stop-color="#fff"/>
+      <stop offset="1" stop-color="#dfe9ed"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-7" y1="0.5" x2="1" y2="0.5" xlink:href="#linear-gradient-6"/>
+  </defs>
+  <g id="Mask_Group_7" data-name="Mask Group 7" transform="translate(-1182 -4639)" clip-path="url(#clip-path)">
+    <g id="Serverless_Environment-01" data-name="Serverless Environment-01" transform="translate(1181.166 4638.166)">
+      <g id="Layer_2" data-name="Layer 2" transform="translate(0.333 0.333)">
+        <rect id="Rectangle_7415" data-name="Rectangle 7415" width="279" height="280" transform="translate(0.5 -0.499)" fill="url(#radial-gradient)"/>
+      </g>
+      <g id="Layer_8" data-name="Layer 8" transform="translate(21.905 21.905)">
+        <g id="Server" transform="translate(70.205 40.88)">
+          <rect id="Server_Part" data-name="Server Part" width="93.208" height="157.455" rx="5.53" fill="url(#linear-gradient)"/>
+          <rect id="Server_Part-2" data-name="Server Part" width="81.503" height="33.438" rx="1.81" transform="translate(5.853 43.068)" fill="url(#linear-gradient-2)"/>
+          <rect id="Server_Part-3" data-name="Server Part" width="81.503" height="33.438" rx="1.81" transform="translate(5.853 5.663)" fill="url(#linear-gradient-2)"/>
+          <rect id="Server_Part-4" data-name="Server Part" width="81.503" height="33.438" rx="1.81" transform="translate(5.853 117.884)" fill="url(#linear-gradient-2)"/>
+          <rect id="Server_Part-5" data-name="Server Part" width="81.503" height="33.438" rx="1.81" transform="translate(5.853 80.479)" fill="url(#linear-gradient-2)"/>
+          <rect id="Server_Part-6" data-name="Server Part" width="5.142" height="27.417" rx="1.58" transform="translate(9.395 8.673)" fill="url(#linear-gradient-6)"/>
+          <rect id="Server_Part-7" data-name="Server Part" width="5.142" height="27.417" rx="1.58" transform="translate(16.764 8.673)" fill="url(#linear-gradient-7)"/>
+          <rect id="Server_Part-8" data-name="Server Part" width="5.142" height="27.417" rx="1.58" transform="translate(24.139 8.673)" fill="url(#linear-gradient-7)"/>
+          <line id="Server_Part-9" data-name="Server Part" transform="translate(77.435 22.382)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
+          <line id="Server_Part-10" data-name="Server Part" transform="translate(68.689 22.382)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
+          <line id="Server_Part-11" data-name="Server Part" transform="translate(60.05 22.382)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
+          <rect id="Server_Part-12" data-name="Server Part" width="5.142" height="27.417" rx="1.58" transform="translate(31.34 8.55)" fill="url(#linear-gradient-7)"/>
+          <rect id="Server_Part-13" data-name="Server Part" width="5.142" height="27.417" rx="1.58" transform="translate(9.395 46.14)" fill="url(#linear-gradient-6)"/>
+          <rect id="Server_Part-14" data-name="Server Part" width="5.142" height="27.417" rx="1.58" transform="translate(16.764 46.14)" fill="url(#linear-gradient-7)"/>
+          <rect id="Server_Part-15" data-name="Server Part" width="5.142" height="27.417" rx="1.58" transform="translate(24.139 46.14)" fill="url(#linear-gradient-7)"/>
+          <line id="Server_Part-16" data-name="Server Part" transform="translate(77.435 59.848)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
+          <line id="Server_Part-17" data-name="Server Part" transform="translate(68.689 59.848)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
+          <line id="Server_Part-18" data-name="Server Part" transform="translate(60.05 59.848)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
+          <rect id="Server_Part-19" data-name="Server Part" width="5.142" height="27.417" rx="1.58" transform="translate(31.34 46.017)" fill="url(#linear-gradient-7)"/>
+          <rect id="Server_Part-20" data-name="Server Part" width="5.142" height="27.417" rx="1.58" transform="translate(9.395 83.55)" fill="url(#linear-gradient-6)"/>
+          <rect id="Server_Part-21" data-name="Server Part" width="5.142" height="27.417" rx="1.58" transform="translate(16.764 83.55)" fill="url(#linear-gradient-7)"/>
+          <rect id="Server_Part-22" data-name="Server Part" width="5.142" height="27.417" rx="1.58" transform="translate(24.139 83.55)" fill="url(#linear-gradient-7)"/>
+          <line id="Server_Part-23" data-name="Server Part" transform="translate(77.435 97.259)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
+          <line id="Server_Part-24" data-name="Server Part" transform="translate(68.689 97.259)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
+          <line id="Server_Part-25" data-name="Server Part" transform="translate(60.05 97.259)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
+          <rect id="Server_Part-26" data-name="Server Part" width="5.142" height="27.417" rx="1.58" transform="translate(31.34 83.427)" fill="url(#linear-gradient-7)"/>
+          <rect id="Server_Part-27" data-name="Server Part" width="5.142" height="27.417" rx="1.58" transform="translate(9.395 120.956)" fill="url(#linear-gradient-6)"/>
+          <rect id="Server_Part-28" data-name="Server Part" width="5.142" height="27.417" rx="1.58" transform="translate(16.764 120.956)" fill="url(#linear-gradient-7)"/>
+          <rect id="Server_Part-29" data-name="Server Part" width="5.142" height="27.417" rx="1.58" transform="translate(24.139 120.956)" fill="url(#linear-gradient-7)"/>
+          <line id="Server_Part-30" data-name="Server Part" transform="translate(77.435 134.664)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
+          <line id="Server_Part-31" data-name="Server Part" transform="translate(68.689 134.664)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
+          <line id="Server_Part-32" data-name="Server Part" transform="translate(60.05 134.664)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
+          <rect id="Server_Part-33" data-name="Server Part" width="5.142" height="27.417" rx="1.58" transform="translate(31.34 120.833)" fill="url(#linear-gradient-7)"/>
+        </g>
+        <g id="Group_2693" data-name="Group 2693">
+          <path id="Path_7257" data-name="Path 7257" d="M157.169,275.1a117.928,117.928,0,1,1,83.388-34.54A117.149,117.149,0,0,1,157.169,275.1Zm0-222.8a104.866,104.866,0,1,1,0,.006Z" transform="translate(-39.24 -39.24)" fill="#274456"/>
+          <path id="Path_7448" data-name="Path 7448" d="M0,0H14.347V222.585H0Z" transform="translate(28.521 51.016) rotate(-48.6)" fill="#274456"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -849,6 +849,9 @@ tr {
 .content-img {
     max-width: 100%;
 }
+.cloud-img{
+    max-width: 50%;
+}
 
 .sf_bg {
     padding: 0;
@@ -1266,7 +1269,7 @@ tr {
 
 @media only screen and (max-width:768px) {
     .custom-big .custom-dropdown {
-        /* margin-left: 0 !important; */
+        margin-left: 0 !important;
     }
 
     .custom-dropdown,
@@ -1290,6 +1293,9 @@ tr {
 
 @media only screen and (min-width:768px) {
 
+    .cloud-img{
+        max-width: 100%;
+    }
 
     .webdev-grid-container {
         display: grid;
