@@ -183,7 +183,9 @@ footer a:hover {
     list-style: none;
     padding: unset;
 }
-
+.text-color{
+    color: var(--color-primary)
+}
 .navbar-nav li:hover>ul.dropdown-menu {
     display: block;
 }
@@ -952,8 +954,38 @@ tr {
     border: 1px solid var(--color-primary);
     border-radius: 15px;
     max-width: 240px;
+    min-height: 240px;
 }
 
+.salescloud-item{
+    border: 1px solid var(--color-primary);
+    border-radius: 15px;
+    max-width: 350px;
+    min-height: 280px;
+
+}
+.marketcloud-container{
+    gap: 35px;
+    margin: 30px 0;
+}
+.pardot-item{
+    max-width: 280px;
+    border: 1px solid var(--color-primary);
+    border-radius: 15px;
+    min-height: 180px;
+}
+.communitycloud-item{
+min-height: 210px;
+max-width: 800px;
+border: 1px solid var(--color-primary);
+border-radius: 15px;
+padding: 40px 60px;
+}
+.marketcloud-item {
+    border: 1px solid var(--color-primary);
+    border-radius: 15px;
+    max-width: 220px;
+    min-height: 170px;}
 .webdev-scalable-container {
     gap: 50px;
     margin: 30px 0;
