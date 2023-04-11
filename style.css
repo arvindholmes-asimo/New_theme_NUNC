@@ -1244,7 +1244,7 @@ padding: 40px 60px;
 
     #banner_carousel .slick-img,
     .hero-container .banner-img {
-        height: 600px;
+        height: 90vh;
         object-fit: cover;
     }
 
@@ -1375,7 +1375,7 @@ padding: 40px 60px;
     }
 
     .content-space {
-        padding: 80px 0;
+        padding: 12vh 0;
     }
 
     .mob-dev-container {
