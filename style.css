@@ -283,7 +283,7 @@ footer a:hover {
 .hero-container .banner-img {
     width: 100%;
     height: 280px;
-    max-height: 500px;
+    max-height: 540px;
     object-fit: cover;
 
 }
@@ -745,7 +745,7 @@ footer a:hover {
 .chatbot {
     position: fixed;
     right: 2%;
-    z-index: 999;
+    z-index: 9999;
 
 }
 
@@ -1478,7 +1478,7 @@ tr {
         height: calc(80% + 5px);
     }
     .service-img{
-        width: 8vw;
+        width: 110px;
     }
 
 }
