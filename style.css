@@ -183,9 +183,11 @@ footer a:hover {
     list-style: none;
     padding: unset;
 }
-.text-color{
+
+.text-color {
     color: var(--color-primary)
 }
+
 .navbar-nav li:hover>ul.dropdown-menu {
     display: block;
 }
@@ -236,6 +238,7 @@ footer a:hover {
     font-family: "Bold";
     text-align: left;
 }
+
 /* bigdata banner  */
 .banner-text {
     position: absolute;
@@ -250,6 +253,7 @@ footer a:hover {
 .banner-text>h2 {
     font-family: "Regular";
 }
+
 /* indexhtml banner carousal readmore btn */
 .read_more {
     font-size: 1.3rem;
@@ -314,7 +318,6 @@ footer a:hover {
 
 }
 
-
 .content-space {
     padding: 40px 20px;
 }
@@ -368,11 +371,6 @@ footer a:hover {
     letter-spacing: 0.2px;
     color: var(--color-body);
 }
-
-/* added  to p-tag for the alignment in salesforce.html to avoid unwanted styles */
-/* .p-para {
-    text-align: left;
-} */
 
 .clients-left,
 .clients-right {
@@ -430,7 +428,7 @@ footer a:hover {
     box-shadow: 0 4px 8px 0 rgba(112, 112, 112, 1);
 }
 
-.services-item > a {
+.services-item>a {
     text-align: center;
     text-decoration: none;
     color: var(--color-black);
@@ -454,10 +452,6 @@ footer a:hover {
 
 }
 
-.service-img {
-    width: 65px;
-    height: 65px;
-}
 
 
 .service-white-bg {
@@ -485,7 +479,7 @@ footer a:hover {
 
 .flex-item-1 {
     width: 100%;
-    margin-bottom: 75px;
+    /* margin-bottom: 75px; */
     padding: 0 18px;
 
 }
@@ -791,7 +785,7 @@ a.anchor {
     /* margin-top: .75rem; */
 }
 
-.mob-dev-container{
+.mob-dev-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
 }
@@ -851,7 +845,8 @@ tr {
 .content-img {
     max-width: 100%;
 }
-.cloud-img{
+
+.cloud-img {
     max-width: 50%;
 }
 
@@ -926,7 +921,8 @@ tr {
     gap: 30px;
 }
 
-.mobtech-grid-container ,.webtech-grid-container{
+.mobtech-grid-container,
+.webtech-grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
@@ -956,8 +952,8 @@ tr {
     max-width: 240px;
     min-height: 240px;
 }
-  
-.salescloud-item{
+
+.salescloud-item {
     border: 1px solid var(--color-primary);
     border-radius: 15px;
     max-width: 250px;
@@ -966,7 +962,7 @@ tr {
 
 }
 
-.servicecloud-item{
+.servicecloud-item {
     border: 1px solid var(--color-primary);
     border-radius: 15px;
     max-width: 350px;
@@ -974,24 +970,28 @@ tr {
     padding-top: 20px;
 
 }
-.marketcloud-container{
+
+.marketcloud-container {
     gap: 35px;
     margin: 30px 0;
 }
-.pardot-item{
+
+.pardot-item {
     max-width: 280px;
     border: 1px solid var(--color-primary);
     border-radius: 15px;
     min-height: 180px;
     padding-top: 20px;
 }
-.communitycloud-item{
-min-height: 210px;
-max-width: 800px;
-border: 1px solid var(--color-primary);
-border-radius: 15px;
-padding: 40px 60px;
+
+.communitycloud-item {
+    min-height: 210px;
+    max-width: 800px;
+    border: 1px solid var(--color-primary);
+    border-radius: 15px;
+    padding: 40px 60px;
 }
+
 .marketcloud-item {
     border: 1px solid var(--color-primary);
     border-radius: 15px;
@@ -999,6 +999,7 @@ padding: 40px 60px;
     min-height: 170px;
     padding-top: 20px;
 }
+
 .webdev-scalable-container {
     gap: 50px;
     margin: 30px 0;
@@ -1048,7 +1049,7 @@ padding: 40px 60px;
 }
 
 
-    
+
 .webdev-grid-item:nth-child(2) .ui_design {
     background: #4e8fd1;
 }
@@ -1062,6 +1063,7 @@ padding: 40px 60px;
     background: #52c9bf;
     z-index: 2;
 }
+
 .webdev-grid-item:nth-child(5) .upgrade {
     background: #62c87a;
 }
@@ -1069,9 +1071,11 @@ padding: 40px 60px;
 .webdev-grid-item:nth-child(6) .market {
     background: #e9b141;
 }
+
 .webdev-grid-item:nth-child(7) .testing {
     background: #ecd856;
 }
+
 .webdev-grid-item:nth-child(7) {
     grid-row: 4/5;
     grid-column: 2/3;
@@ -1094,15 +1098,18 @@ padding: 40px 60px;
     gap: 40px;
     margin: 20px auto;
 }
+
+
 @media screen and (max-width:600px) {
     .webdev-grid-container {
         margin-top: 50px;
         margin-bottom: -40px;
     }
+
     .webdev-grid-item:nth-child(2) {
         border-right: 2px solid #707070 !important;
     }
-    
+
     .webdev-grid-item:nth-child(6) {
         border-right: 2px solid #707070 !important;
     }
@@ -1112,7 +1119,8 @@ padding: 40px 60px;
         grid-column: 2/3;
 
     }
-    .side-space{
+
+    .side-space {
         margin-left: 10%;
     }
 
@@ -1127,10 +1135,12 @@ padding: 40px 60px;
         background: #707070;
         transform: translate(-50%, 0%);
     }
+
     .webdev-grid-item:nth-child(3) {
         border-left: 2px solid #707070;
-    
+
     }
+
 
 }
 
@@ -1147,10 +1157,12 @@ padding: 40px 60px;
         background: #707070;
         transform: translate(-50%, 0%);
     }
+
     .webdev-grid-item {
         min-height: 200px;
     }
-    .side-space{
+
+    .side-space {
         margin-left: 20%;
     }
 
@@ -1181,6 +1193,7 @@ padding: 40px 60px;
         margin: 35px auto;
         width: 90%;
     }
+
     .webdev-img {
         width: 60px;
         height: 60px;
@@ -1191,13 +1204,15 @@ padding: 40px 60px;
         height: 120px;
     }
 
-    .mobtech-grid-container,.webtech-grid-container {
+    .mobtech-grid-container,
+    .webtech-grid-container {
         grid-template-columns: repeat(3, 200px);
     }
 
     .mob-grid-img {
         width: 150px;
     }
+
     .webdev-content {
         margin-top: 65px;
         height: calc(100% - 65px);
@@ -1322,6 +1337,12 @@ padding: 40px 60px;
     .dropdown {
         text-align: center;
     }
+
+    .service-img {
+        width: 65px;
+        height: 65px;
+    }
+
 }
 
 @media screen and (max-width: 420px) {
@@ -1329,17 +1350,20 @@ padding: 40px 60px;
     .custom-dropdown {
         margin-left: 0;
     }
-    .bigdata-tr{
+
+    .bigdata-tr {
         display: flex;
         flex-wrap: wrap;
     }
-    
+
+
+
 
 }
 
 @media only screen and (min-width:768px) {
 
-    .cloud-img{
+    .cloud-img {
         max-width: 100%;
     }
 
@@ -1413,7 +1437,7 @@ padding: 40px 60px;
 
     .flex-item-1 {
         width: 50%;
-        margin-bottom: 75px;
+        /* margin-bottom: 75px; */
 
     }
 
@@ -1439,15 +1463,22 @@ padding: 40px 60px;
         display: block;
     }
 
+    .service-border{
+        width: 160px;
+        height: 160px;
+    }
+
     .service-white-bg {
         width: 115px;
         height: 115px;
 
     }
-
     .service-border:hover .service-white-bg {
-        width: 120px;
-        height: 120px;
+        width: calc(80% + 5px);
+        height: calc(80% + 5px);
+    }
+    .service-img{
+        width: 8vw;
     }
 
 }
@@ -1466,6 +1497,17 @@ padding: 40px 60px;
         width: 150px;
         height: 150px;
     }
+
+    .service-border {
+        width: 200px;
+        height: 200px;
+    }
+
+    .service-white-bg {
+        width: 155px;
+        height: 155px;
+    }
+
 }
 
 @media (min-width: 1200px) {
