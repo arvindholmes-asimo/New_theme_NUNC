@@ -253,7 +253,9 @@ footer a:hover {
 .banner-text>h2 {
     font-family: "Regular";
 }
-
+.banner-space{
+    padding: 0 0 40px 0;
+}
 /* indexhtml banner carousal readmore btn */
 .read_more {
     font-size: 1.3rem;
@@ -480,7 +482,7 @@ footer a:hover {
 .flex-item-1 {
     width: 100%;
     /* margin-bottom: 75px; */
-    padding: 0 18px;
+    padding: 0  18px 40px;
 
 }
 
@@ -852,7 +854,7 @@ tr {
 
 .sf_bg {
     padding: 0;
-    background: url(./img/salesforce/salesforce_banner.svg);
+    background: url('./img/salesforce/salesforce_banner.svg');
     background-position: top center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -861,7 +863,7 @@ tr {
 
 .mobility_bg {
     padding: 0;
-    background: url(./img/mobility/mobility_banner.svg);
+    background: url('./img/mobility/mobility_banner.svg');
     background-position: top right;
     background-size: contain;
     background-repeat: no-repeat;
@@ -876,10 +878,18 @@ tr {
     background-repeat: no-repeat;
     height: 400px;
 }
+.cloud_bg {
+    padding: 0;
+    background: url('./img/cloud_sol/cloudsol_banner.svg');
+    background-position: top right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+}
 
 .mobility_bg.desktop_img,
 .sf_bg.desktop_img,
-.web_bg.desktop_img {
+.web_bg.desktop_img ,.cloud_bg.desktop_img{
     display: none;
 }
 
@@ -1375,7 +1385,7 @@ tr {
 
     .mobility_bg.desktop_img,
     .sf_bg.desktop_img,
-    .web_bg.desktop_img {
+    .web_bg.desktop_img,.cloud_bg.desktop_img {
         display: block;
     }
 
@@ -1419,7 +1429,7 @@ tr {
 
     .sf_bg,
     .mobility_bg,
-    .web_bg {
+    .web_bg ,.cloud_bg{
         height: 100%;
         background-position: top right;
     }
