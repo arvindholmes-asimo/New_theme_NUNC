@@ -1269,7 +1269,7 @@ tr {
 
     #banner_carousel .slick-img,
     .hero-container .banner-img {
-        height: 90vh;
+        height: 77vh;
         object-fit: cover;
     }
 
@@ -1409,7 +1409,7 @@ tr {
     }
 
     .content-space {
-        padding: 12vh 0;
+        padding: 80px 0;
     }
 
     .mob-dev-container {
