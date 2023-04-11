@@ -1245,6 +1245,7 @@ padding: 40px 60px;
     #banner_carousel .slick-img,
     .hero-container .banner-img {
         height: 600px;
+        object-fit: cover;
     }
 
     .display1 {
