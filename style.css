@@ -956,12 +956,22 @@ tr {
     max-width: 240px;
     min-height: 240px;
 }
-
+  
 .salescloud-item{
+    border: 1px solid var(--color-primary);
+    border-radius: 15px;
+    max-width: 250px;
+    min-height: 240px;
+    padding-top: 20px;
+
+}
+
+.servicecloud-item{
     border: 1px solid var(--color-primary);
     border-radius: 15px;
     max-width: 350px;
     min-height: 280px;
+    padding-top: 20px;
 
 }
 .marketcloud-container{
@@ -973,6 +983,7 @@ tr {
     border: 1px solid var(--color-primary);
     border-radius: 15px;
     min-height: 180px;
+    padding-top: 20px;
 }
 .communitycloud-item{
 min-height: 210px;
@@ -985,7 +996,9 @@ padding: 40px 60px;
     border: 1px solid var(--color-primary);
     border-radius: 15px;
     max-width: 220px;
-    min-height: 170px;}
+    min-height: 170px;
+    padding-top: 20px;
+}
 .webdev-scalable-container {
     gap: 50px;
     margin: 30px 0;
