@@ -239,10 +239,11 @@ footer a:hover {
     text-align: left;
 }
 
+
 /* bigdata banner  */
 .banner-text {
     position: absolute;
-    top: 30%;
+    top: 45%;
     left: 5%;
     color: var(--color-white);
     z-index: 9999;
@@ -937,7 +938,7 @@ tr {
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     gap: 30px;
-    box-shadow: 0px 4px 8px 0px rgb(112 112 112);
+    /* box-shadow: 0px 4px 8px 0px rgb(112 112 112); */
     width: 90%;
     margin: 20px auto;
 }
@@ -1214,10 +1215,7 @@ tr {
         height: 120px;
     }
 
-    .mobtech-grid-container,
-    .webtech-grid-container {
-        grid-template-columns: repeat(3, 200px);
-    }
+
 
     .mob-grid-img {
         width: 150px;
@@ -1372,6 +1370,14 @@ tr {
 }
 
 @media only screen and (min-width:768px) {
+
+
+    .mobtech-grid-container,
+    .webtech-grid-container {
+        grid-template-columns: repeat(3, 200px);
+    box-shadow: 0px 4px 8px 0px rgb(112 112 112);
+
+    }
 
     .cloud-img {
         max-width: 100%;
