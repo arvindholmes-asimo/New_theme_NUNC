@@ -80,7 +80,7 @@ h1 {
 }
 
 h2 {
-    font-size: clamp(2.8rem, 1.6vw, 3.2rem);
+    font-size: clamp(2rem, 1.6vw, 3.2rem);
 }
 
 h3 {
@@ -930,6 +930,11 @@ tr {
     width: 90%;
     margin: auto;
     gap: 30px;
+}
+.data_science {
+    width: 60%!important;
+    display: block;
+    margin: auto;
 }
 
 .mobtech-grid-container,
