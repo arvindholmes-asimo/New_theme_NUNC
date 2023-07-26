@@ -356,9 +356,10 @@ footer a:hover {
     font-family: "Bold";
     text-align: left;
 
-} 
+}
+
 /* banner for chatbot need to change image as text on image is not similar other page banner  */
-.banner-text-right{
+.banner-text-right {
     position: absolute;
     top: 60%;
     right: 20%;
@@ -368,8 +369,8 @@ footer a:hover {
     text-align: left;
 
 }
- 
-.banner_heading_right{
+
+.banner_heading_right {
     position: absolute;
     top: 45%;
     right: 5%;
@@ -474,6 +475,25 @@ footer a:hover {
 
 .para-pad {
     padding: 10px;
+}
+
+a:not([href]):not([tabindex]) {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+a:not([href]):not([tabindex]):hover .custom-nav-color {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+
+.section-highlight {
+    color: var(--color-primary);
+}
+
+ul>li>.dropdown-item:hover .section-highlight {
+    background-color: var(--color-primary);
+    color: var(--color-white);
 }
 
 .heading {
@@ -1241,7 +1261,7 @@ tr {
     }
 
 
-   
+
 
     .webdev-grid-item:nth-child(2) {
         border-right: 2px solid #707070 !important;
@@ -1486,7 +1506,8 @@ tr {
     }
 
 }
-@media screen and (max-width:576px){
+
+@media screen and (max-width:576px) {
 
     .center-object {
         position: relative;
@@ -1589,8 +1610,7 @@ tr {
         margin: auto;
     }
 
-    .navbar-nav li.custom-big:hover>
-    ul.dropdown-menu.custom-dropdown {
+    .navbar-nav li.custom-big:hover>ul.dropdown-menu.custom-dropdown {
         display: flex !important;
         margin-right: -300%;
         max-height: unset;
