@@ -477,21 +477,12 @@ footer a:hover {
     padding: 10px;
 }
 
-a:not([href]):not([tabindex]) {
+.custom-nav-color {
     color: var(--color-primary);
-    text-decoration: none;
+
 }
 
-a:not([href]):not([tabindex]):hover .custom-nav-color {
-    background-color: var(--color-primary);
-    color: var(--color-white);
-}
-
-.section-highlight {
-    color: var(--color-primary);
-}
-
-ul>li>.dropdown-item:hover .section-highlight {
+ul>li>.dropdown-item:hover .custom-nav-color{
     background-color: var(--color-primary);
     color: var(--color-white);
 }
@@ -1062,7 +1053,7 @@ tr {
     border: 1px solid var(--color-primary);
     border-radius: 10px;
     min-width: 250px;
-    height: 150px;
+    /* height: 150px; */
     justify-content: space-evenly;
     background: #FBFDFF;
     width: calc(100% / 3);
@@ -1108,21 +1099,29 @@ tr {
 }
 
 .salescloud-item {
-    border: 1px solid var(--color-primary);
-    border-radius: 15px;
     max-width: 250px;
     min-height: 240px;
+}
+
+.border-styles{
+    border: 1px solid var(--color-primary);
+    border-radius: 15px;
     padding-top: 20px;
 
 }
-
 .servicecloud-item {
     border: 1px solid var(--color-primary);
     border-radius: 15px;
     max-width: 350px;
     min-height: 280px;
     padding-top: 20px;
-
+}
+.support-item{
+    border: 1px solid var(--color-primary);
+    border-radius: 15px;
+    max-width: 350px;
+    /* min-height: 280px; */
+    padding-top: 20px;
 }
 
 .marketcloud-container {

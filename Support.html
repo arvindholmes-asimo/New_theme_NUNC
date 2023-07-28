@@ -193,7 +193,8 @@
         <div class="hero-container">
             <div class="bigdata-banner">
                 <div class="caption position-relative">
-                    <img class="banner-img" width="100%" height="600"
+                    <!-- here i added class object-fit-none for the sake of specific image with text not looking properly can be removed in future if image is changed -->
+                    <img class="banner-img object-fit-none" width="100%" height="600"
                         src="https://www.nuncsystems.com/img/sales_force/Support.png">
                     <div class="banner-text">
                         <!-- <div class="heading1 animate__animated animate__slideInUp animate__delay-0.1s">
@@ -229,40 +230,50 @@
     </section>
     <section class="architecture_container bg-shade  content-space">
         <div class="custom-container ">
-            <h3>Our Support Scope</h3>
+            <h3 class=" display5 font-weight-bold">Our Support Scope</h3>
             <p class="para">
                 We take-over the complete development and administration support of your Salesforce solution or handle
                 certain support functions, according to your requirements.
             </p>
-            <div class="arch-grid-container d-flex flex-wrap justify-content-center">
-                <div class="arch-box bg-bright d-flex text-center align-items-center flex-column ">
-                    <h3>Ad-hoc</h3>
-                    <p class="para text-center">
+            <div class="webdev-scalable-container d-flex justify-content-center flex-wrap">
+                <div
+                    class="card-body support-item w-100 text-center d-flex align-items-center flex-column justify-content-evenly bg-bright ">
 
-                    </p>
-                </div>
-                <div class=" arch-box d-flex text-center align-items-center flex-column ">
-                    <div class="arch-img">
-                        <img src="./img/mobility/hybrid_mix.svg" alt="">
-                    </div>
-                    <h3>Hybrid Mixed & Hybrid web</h3>
-                </div>
+                    <h3 class="card-subtitle text-title-big-data font-weight-bold">Ad-hoc</h3>
+                    <p class="card-text">
+                        Comes handy for one time support requests where we study your problems on need basis and extend
+                        support/fixes within a specified time frame. User management, Code Bugs, Enhancements.</p>
 
-
-                <div class="arch-box d-flex text-center align-items-center flex-column ">
-                    <div class="arch-img">
-                        <img src="./img/mobility/hybrid_package.svg" alt="">
-                    </div>
-                    <h3>Hybrid Package</h3>
                 </div>
-                <div class=" arch-box d-flex text-center align-items-center flex-column ">
-                    <div class="arch-img">
-                        <img src="./img/mobility/mobile_web.svg" alt="">
-                    </div>
-                    <h3>Mobile web</h3>
+                <div
+                    class="card-body support-item w-100 text-center d-flex align-items-center flex-column justify-content-evenly bg-bright ">
+
+                    <h3 class="card-subtitle text-title-big-data font-weight-bold">Monthly</h3>
+                    <p class="card-text">For customers who need regular support activities but don’t necessarily need a
+                        full-time administrator/developer to manage their instance. We work on a minimum monthly
+                        commitment hours</p>
+
                 </div>
 
+                <div
+                    class="card-body support-item w-100 text-center d-flex align-items-center flex-column justify-content-evenly bg-bright ">
+
+                    <h3 class="card-subtitle text-title-big-data font-weight-bold">Dedicated</h3>
+                    <p class="card-text">For customers who need constant support to ensure their users and applications
+                        are up and running 24/7. A full-time administrator, developer will be allotted along with an
+                        account manager who will be constantly monitoring the account..</p>
+
+                </div>
+                <div
+                    class="card-body support-item w-100 text-center d-flex align-items-center flex-column justify-content-evenly bg-bright ">
+
+                    <h3 class="card-subtitle text-title-big-data font-weight-bold">Onsite Offshore Support</h3>
+                    <p class="card-text">We combine the best of the onsite and offshore support teams with immediate
+                        response time to address any technical issues and time-critical operations.</p>
+
+                </div>
             </div>
+
         </div>
     </section>
 
@@ -274,7 +285,6 @@
 <footer class="footer-container footer-top-holder w-100">
     <div class="container py-4">
         <div class="row">
-            <!-- <div class="col-12 col-md-10 offset-md-1"> -->
             <div class="col-12 col-sm-6 col-md-4 company-details footer-wrapper">
                 <div class="company-logo text-left">
                     <img class="img-fluid mb-5 nunc_sys_logo " src="./img/nunc_sys_logo.svg" alt="NUNCSYS">
