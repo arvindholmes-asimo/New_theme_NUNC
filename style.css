@@ -10,12 +10,18 @@
     --color-bg3: rgb(44, 44, 44);
     --color-border: rgb(112, 112, 112);
     --color-primary-light: rgb(224, 245, 254);
+    --color-green:#1ca55f;
+}
+.green-icon {
+    color: var(--color-green);
+    font-size: 35px;
 }
 
 * ::selection {
     background-color: var(--color-primary);
     color: var(--color-white);
 }
+
 
 /* Typography */
 html {
@@ -179,7 +185,10 @@ body {
     font-family: "Bold";
     font-size: 2.4rem;
 }
-
+.heading1 {
+    font-family: 'Bold';
+    color: var(--color-bg1);
+}
 
 h1 {
     font-size: clamp(3rem, 2.5vw, 5rem);
@@ -1050,6 +1059,26 @@ tr {
     /* height: 400px; */
 
 }
+.ecommerce_bg{
+    background: url('https://www.nuncsystems.com/img/e-commerce/header_bg1.png');
+    background-position: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 540px;
+
+}
+
+.automotive_bg{
+    /* margin-top: 60px; */
+    padding: 30px 0px 0px;
+    background: url('https://www.nuncsystems.com/img/automotive/header_bg.png');
+    background-size: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 540px;
+
+
+}
 .mobility_bg.desktop_img,
 .sf_bg.desktop_img,
 .web_bg.desktop_img,
@@ -1080,6 +1109,15 @@ tr {
     text-align: center;
     margin: auto;
 }
+ .width3col{
+    width: calc(100% / 3);
+ }
+ .width4col{
+    width: calc(100% / 4);
+ }
+ .width5col{
+    width: calc(100% / 5);
+ }
 
 .arch-box {
     border: 1px solid var(--color-primary);
@@ -1487,10 +1525,7 @@ tr {
     #case_studies_carousel .slick-prev {
         bottom: 0;
     }
-    .heading1 {
-        font-family: 'Bold';
-        color: var(--color-bg1);
-    }
+  
     .read_more {
         font-size: 1.5rem;
         font-family: "Medium";
