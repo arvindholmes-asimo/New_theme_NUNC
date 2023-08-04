@@ -10,8 +10,9 @@
     --color-bg3: rgb(44, 44, 44);
     --color-border: rgb(112, 112, 112);
     --color-primary-light: rgb(224, 245, 254);
-    --color-green:#1ca55f;
+    --color-green: #1ca55f;
 }
+
 .green-icon {
     color: var(--color-green);
     font-size: 35px;
@@ -185,6 +186,7 @@ body {
     font-family: "Bold";
     font-size: 2.4rem;
 }
+
 .heading1 {
     font-family: 'Bold';
     color: var(--color-bg1);
@@ -366,6 +368,11 @@ footer a:hover {
     text-align: left;
 
 }
+.iot-bannerimg{
+    position: absolute;
+    top: 0;
+    left: 35%;
+}
 
 /* banner for chatbot need to change image as text on image is not similar other page banner  */
 .banner-text-right {
@@ -491,7 +498,7 @@ footer a:hover {
 
 }
 
-ul>li>.dropdown-item:hover .custom-nav-color{
+ul>li>.dropdown-item:hover .custom-nav-color {
     background-color: var(--color-primary);
     color: var(--color-white);
 }
@@ -993,18 +1000,22 @@ tr {
 .content-img {
     max-width: 100%;
 }
-.item-container{
-    width:100%;
+
+.item-container {
+    width: 100%;
 }
-.img-100{
+
+.img-100 {
     width: 100px;
     height: 100px;
 }
-.img-60{
+
+.img-60 {
     width: 60px;
     height: 60px;
 }
-.rpa-img{
+
+.rpa-img {
     width: 110px;
     height: 110px;
 }
@@ -1049,7 +1060,7 @@ tr {
     height: 400px;
 }
 
-.agriculture_bg{
+.agriculture_bg {
     margin-top: 60px;
     padding: 30px 0px 0px;
     background: url('https://www.nuncsystems.com/img/agriculture/header_bg.png');
@@ -1059,16 +1070,17 @@ tr {
     /* height: 400px; */
 
 }
-.ecommerce_bg{
+
+.ecommerce_bg {
     background: url('https://www.nuncsystems.com/img/e-commerce/header_bg1.png');
-    background-position: 100% 100%;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 540px;
 
 }
 
-.automotive_bg{
+.automotive_bg {
     /* margin-top: 60px; */
     padding: 30px 0px 0px;
     background: url('https://www.nuncsystems.com/img/automotive/header_bg.png');
@@ -1079,11 +1091,31 @@ tr {
 
 
 }
+
 .mobility_bg.desktop_img,
 .sf_bg.desktop_img,
 .web_bg.desktop_img,
 .cloud_bg.desktop_img {
     display: none;
+}
+
+.grid-box {
+    background-color: var(--color-primary);
+    width: 140px;
+    height: 100px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.grid-box::before {
+    content: '';
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid var(--color-primary);
+    z-index: 2;
+    bottom: -20px;
+    left: 60px;
 }
 
 .mbl_img {
@@ -1095,8 +1127,8 @@ tr {
     margin-bottom: 20px;
 }
 
-.item-background{
-    background-color:var(--color-bg1);
+.item-background {
+    background-color: var(--color-bg1);
     width: 120px;
     border-radius: 50%;
     height: 120px;
@@ -1109,15 +1141,18 @@ tr {
     text-align: center;
     margin: auto;
 }
- .width3col{
+
+.width3col {
     width: calc(100% / 3);
- }
- .width4col{
+}
+
+.width4col {
     width: calc(100% / 4);
- }
- .width5col{
+}
+
+.width5col {
     width: calc(100% / 5);
- }
+}
 
 .arch-box {
     border: 1px solid var(--color-primary);
@@ -1173,12 +1208,13 @@ tr {
     min-height: 240px;
 }
 
-.border-styles{
+.border-styles {
     border: 1px solid var(--color-primary);
     border-radius: 15px;
     padding-top: 20px;
 
 }
+
 .servicecloud-item {
     border: 1px solid var(--color-primary);
     border-radius: 15px;
@@ -1186,7 +1222,8 @@ tr {
     min-height: 280px;
     padding-top: 20px;
 }
-.support-item{
+
+.support-item {
     border: 1px solid var(--color-primary);
     border-radius: 15px;
     max-width: 350px;
@@ -1525,7 +1562,7 @@ tr {
     #case_studies_carousel .slick-prev {
         bottom: 0;
     }
-  
+
     .read_more {
         font-size: 1.5rem;
         font-family: "Medium";
