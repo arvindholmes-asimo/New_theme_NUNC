@@ -1084,15 +1084,14 @@ tr {
     background-repeat: no-repeat;
     height: 400px;
 }
-
+/* based on the background image height is adjusted */
 .agriculture_bg {
-    margin-top: 60px;
-    padding: 30px 0px 0px;
+    padding: 0px;
     background: url('https://www.nuncsystems.com/img/agriculture/header_bg.png');
-    /* background-position: top; */
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* height: 400px; */
+    background-size: 100% 100%;
+    /* background-repeat: no-repeat; */
+    /* background-position: top right; */
+    height: 500px;
 
 }
 
